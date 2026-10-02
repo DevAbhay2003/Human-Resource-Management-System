@@ -1,0 +1,1658 @@
+{
+  "systemSettings": {
+    "universityName": "The Neotia University",
+    "portalTitle": "HR & Enterprise Governance Automation System",
+    "academicYear": "2026-2027",
+    "currentSimulatedDate": "2026-10-03T09:00:00.000Z",
+    "groupDSubmissionDueDay": 7,
+    "groupDGracePeriodDueDay": 10,
+    "facultyRegistrarRoutingDay": 10,
+    "generalKRAOnboardingDaysLimit": 30,
+    "quarterReviewReminderDays": 20,
+    "quarterReviewSubmissionDays": 15
+  },
+  "employees": [
+    {
+      "id": "EMP-001",
+      "empCode": "TNU-MGMT-001",
+      "name": "Prof. (Dr.) B. N. Sengupta",
+      "email": "vc@tnu.edu.in",
+      "phone": "+91 98300 11001",
+      "role": "SENIOR_MANAGEMENT",
+      "category": "MANAGEMENT",
+      "designation": "Vice-Chancellor",
+      "level": "L-16 (Apex)",
+      "department": "Executive Office",
+      "school": "University Administration",
+      "location": "Main Campus, Diamond Harbour",
+      "reportingAuthorityId": null,
+      "reportingAuthorityName": "Chancellor / Board of Governors",
+      "salary": 285000,
+      "doj": "2021-06-01",
+      "probationStatus": "COMPLETED",
+      "probationEndDate": "2022-05-31",
+      "qualifications": "Ph.D. in Computer Science (IIT Kharagpur), Post-Doc (Cambridge)",
+      "status": "ACTIVE",
+      "digitalDossier": [
+        {
+          "title": "Appointment Letter",
+          "date": "2021-05-15",
+          "type": "OFFICIAL_ORDER"
+        },
+        {
+          "title": "Statutory Confirmation",
+          "date": "2022-06-01",
+          "type": "CONFIRMATION"
+        }
+      ]
+    },
+    {
+      "id": "EMP-002",
+      "empCode": "TNU-MGMT-002",
+      "name": "Mr. Amitabh Roy",
+      "email": "vp.admin@tnu.edu.in",
+      "phone": "+91 98300 11002",
+      "role": "VICE_PRESIDENT_ADMIN",
+      "category": "MANAGEMENT",
+      "designation": "Vice President - Administration",
+      "level": "L-15",
+      "department": "Administration",
+      "school": "University Administration",
+      "location": "Main Campus, Diamond Harbour",
+      "reportingAuthorityId": "EMP-001",
+      "reportingAuthorityName": "Prof. (Dr.) B. N. Sengupta",
+      "salary": 220000,
+      "doj": "2022-02-01",
+      "probationStatus": "COMPLETED",
+      "probationEndDate": "2023-01-31",
+      "qualifications": "MBA (IIM Calcutta), B.Tech (NIT Durgapur)",
+      "status": "ACTIVE",
+      "digitalDossier": [
+        {
+          "title": "Joining Docket",
+          "date": "2022-02-01",
+          "type": "ONBOARDING"
+        }
+      ]
+    },
+    {
+      "id": "EMP-003",
+      "empCode": "TNU-ADMIN-001",
+      "name": "Dr. R. K. Mukherjee",
+      "email": "registrar@tnu.edu.in",
+      "phone": "+91 98300 11003",
+      "role": "REGISTRAR",
+      "category": "MANAGEMENT",
+      "designation": "Registrar",
+      "level": "L-14",
+      "department": "Office of the Registrar",
+      "school": "University Administration",
+      "location": "Main Campus, Diamond Harbour",
+      "reportingAuthorityId": "EMP-001",
+      "reportingAuthorityName": "Prof. (Dr.) B. N. Sengupta",
+      "salary": 195000,
+      "doj": "2022-04-15",
+      "probationStatus": "COMPLETED",
+      "probationEndDate": "2023-04-14",
+      "qualifications": "Ph.D. in Public Administration, M.A., LLB",
+      "status": "ACTIVE",
+      "digitalDossier": [
+        {
+          "title": "Joining Docket & Gazette",
+          "date": "2022-04-15",
+          "type": "ONBOARDING"
+        }
+      ]
+    },
+    {
+      "id": "EMP-004",
+      "empCode": "TNU-HR-001",
+      "name": "Ms. Sunita Sharma",
+      "email": "head.hr@tnu.edu.in",
+      "phone": "+91 98300 11004",
+      "role": "HEAD_HR",
+      "category": "NON_FACULTY",
+      "designation": "Head - Human Resources",
+      "level": "L-13",
+      "department": "Human Resources",
+      "school": "University Administration",
+      "location": "Main Campus, Diamond Harbour",
+      "reportingAuthorityId": "EMP-002",
+      "reportingAuthorityName": "Mr. Amitabh Roy",
+      "salary": 165000,
+      "doj": "2023-01-10",
+      "probationStatus": "COMPLETED",
+      "probationEndDate": "2024-01-09",
+      "qualifications": "MBA - HR (XLRI Jamshedpur), SHRM-SCP",
+      "status": "ACTIVE",
+      "digitalDossier": [
+        {
+          "title": "Service Agreement",
+          "date": "2023-01-10",
+          "type": "AGREEMENT"
+        }
+      ]
+    },
+    {
+      "id": "EMP-005",
+      "empCode": "TNU-HR-002",
+      "name": "Mr. Vikram Malhotra",
+      "email": "recruitment@tnu.edu.in",
+      "phone": "+91 98300 11005",
+      "role": "HR_EXECUTIVE",
+      "category": "NON_FACULTY",
+      "designation": "Senior HR Executive (Talent Acquisition)",
+      "level": "L-9",
+      "department": "Human Resources",
+      "school": "University Administration",
+      "location": "Main Campus, Diamond Harbour",
+      "reportingAuthorityId": "EMP-004",
+      "reportingAuthorityName": "Ms. Sunita Sharma",
+      "salary": 75000,
+      "doj": "2024-03-01",
+      "probationStatus": "COMPLETED",
+      "probationEndDate": "2025-02-28",
+      "qualifications": "MSW (Personnel Mgmt), PGDM HR",
+      "status": "ACTIVE",
+      "digitalDossier": []
+    },
+    {
+      "id": "EMP-006",
+      "empCode": "TNU-ENG-001",
+      "name": "Prof. (Dr.) Alok Chatterjee",
+      "email": "dean.engg@tnu.edu.in",
+      "phone": "+91 98300 11006",
+      "role": "DEAN",
+      "category": "FACULTY",
+      "designation": "Dean - School of Engineering & Technology",
+      "level": "L-14A",
+      "department": "School of Engineering",
+      "school": "School of Engineering & Technology",
+      "location": "Engineering Block A",
+      "reportingAuthorityId": "EMP-001",
+      "reportingAuthorityName": "Prof. (Dr.) B. N. Sengupta",
+      "salary": 210000,
+      "doj": "2022-07-01",
+      "probationStatus": "COMPLETED",
+      "probationEndDate": "2023-06-30",
+      "qualifications": "Ph.D. in Mechanical Engineering (IIT Kharagpur)",
+      "status": "ACTIVE",
+      "digitalDossier": []
+    },
+    {
+      "id": "EMP-007",
+      "empCode": "TNU-ACAD-001",
+      "name": "Dr. Piyush Ganguly",
+      "email": "assocdean.acad@tnu.edu.in",
+      "phone": "+91 98300 11007",
+      "role": "ASSOC_DEAN",
+      "category": "FACULTY",
+      "designation": "Associate Dean (Academics) & Professor",
+      "level": "L-13A",
+      "department": "Academic Affairs",
+      "school": "School of Engineering & Technology",
+      "location": "Administrative Block",
+      "reportingAuthorityId": "EMP-001",
+      "reportingAuthorityName": "Prof. (Dr.) B. N. Sengupta",
+      "salary": 175000,
+      "doj": "2023-05-01",
+      "probationStatus": "COMPLETED",
+      "probationEndDate": "2024-04-30",
+      "qualifications": "Ph.D. in Electronics, M.Tech (IIT Delhi)",
+      "status": "ACTIVE",
+      "digitalDossier": []
+    },
+    {
+      "id": "EMP-008",
+      "empCode": "TNU-CSE-001",
+      "name": "Dr. Debasis Roy",
+      "email": "hod.cse@tnu.edu.in",
+      "phone": "+91 98300 11008",
+      "role": "HOD",
+      "category": "FACULTY",
+      "designation": "Associate Professor & HOD",
+      "level": "L-13A",
+      "department": "Computer Science & Engineering",
+      "school": "School of Engineering & Technology",
+      "location": "IT & CS Complex",
+      "reportingAuthorityId": "EMP-006",
+      "reportingAuthorityName": "Prof. (Dr.) Alok Chatterjee",
+      "salary": 155000,
+      "doj": "2023-08-01",
+      "probationStatus": "COMPLETED",
+      "probationEndDate": "2024-07-31",
+      "qualifications": "Ph.D. in CS (Jadavpur Univ), M.Tech",
+      "status": "ACTIVE",
+      "digitalDossier": []
+    },
+    {
+      "id": "EMP-009",
+      "empCode": "TNU-CSE-002",
+      "name": "Dr. Ananya Sen",
+      "email": "ananya.sen@tnu.edu.in",
+      "phone": "+91 98300 11009",
+      "role": "FACULTY",
+      "category": "FACULTY",
+      "designation": "Associate Professor",
+      "level": "L-13A",
+      "department": "Computer Science & Engineering",
+      "school": "School of Engineering & Technology",
+      "location": "IT & CS Complex",
+      "reportingAuthorityId": "EMP-008",
+      "reportingAuthorityName": "Dr. Debasis Roy",
+      "salary": 98000,
+      "doj": "2024-08-01",
+      "probationStatus": "COMPLETED",
+      "probationEndDate": "2025-07-31",
+      "qualifications": "Ph.D. in Artificial Intelligence, UGC NET (JRF)",
+      "status": "ACTIVE",
+      "digitalDossier": [
+        {
+          "title": "Ph.D. Degree & UGC NET Certificate",
+          "date": "2024-08-01",
+          "type": "QUALIFICATION"
+        },
+        {
+          "title": "Probation Clearance Letter",
+          "date": "2025-08-05",
+          "type": "CONFIRMATION"
+        }
+      ]
+    },
+    {
+      "id": "EMP-010",
+      "empCode": "TNU-EE-001",
+      "name": "Dr. Sourav Banerjee",
+      "email": "sourav.ee@tnu.edu.in",
+      "phone": "+91 98300 11010",
+      "role": "FACULTY",
+      "category": "FACULTY",
+      "designation": "Assistant Professor",
+      "level": "L-10",
+      "department": "Electrical Engineering",
+      "school": "School of Engineering & Technology",
+      "location": "Engineering Block B",
+      "reportingAuthorityId": "EMP-006",
+      "reportingAuthorityName": "Prof. (Dr.) Alok Chatterjee",
+      "salary": 82000,
+      "doj": "2025-07-15",
+      "probationStatus": "COMPLETED",
+      "probationEndDate": "2026-07-14",
+      "qualifications": "Ph.D. in Power Systems, M.Tech (BESU)",
+      "status": "ACTIVE",
+      "digitalDossier": [
+        {
+          "title": "Probation Clearance Letter",
+          "date": "2026-07-20",
+          "type": "CONFIRMATION"
+        }
+      ]
+    },
+    {
+      "id": "EMP-011",
+      "empCode": "TNU-BIO-001",
+      "name": "Ms. Ritika Ghosh",
+      "email": "ritika.bio@tnu.edu.in",
+      "phone": "+91 98300 11011",
+      "role": "FACULTY",
+      "category": "FACULTY",
+      "designation": "Assistant Professor",
+      "level": "L-10",
+      "department": "Biotechnology",
+      "school": "School of Life Sciences",
+      "location": "Science Complex",
+      "reportingAuthorityId": "EMP-006",
+      "reportingAuthorityName": "Prof. (Dr.) Alok Chatterjee",
+      "salary": 76000,
+      "doj": "2026-03-01",
+      "probationStatus": "IN_PROBATION",
+      "probationEndDate": "2027-02-28",
+      "qualifications": "M.Tech Biotech, UGC-CSIR NET Qualified",
+      "status": "ACTIVE",
+      "digitalDossier": [
+        {
+          "title": "Probation Appointment Order",
+          "date": "2026-03-01",
+          "type": "APPOINTMENT"
+        }
+      ]
+    },
+    {
+      "id": "EMP-012",
+      "empCode": "TNU-IT-001",
+      "name": "Mr. Subhashis Das",
+      "email": "subhashis.it@tnu.edu.in",
+      "phone": "+91 98300 11012",
+      "role": "NON_FACULTY",
+      "category": "NON_FACULTY",
+      "designation": "Senior Systems Administrator",
+      "level": "L-8",
+      "department": "IT Services",
+      "school": "University Administration",
+      "location": "Server Room, Main Admin Block",
+      "reportingAuthorityId": "EMP-002",
+      "reportingAuthorityName": "Mr. Amitabh Roy",
+      "salary": 68000,
+      "doj": "2025-06-10",
+      "probationStatus": "COMPLETED",
+      "probationEndDate": "2026-06-09",
+      "qualifications": "B.Tech IT, CCNA, RHCE, AWS Solutions Architect",
+      "status": "ACTIVE",
+      "digitalDossier": []
+    },
+    {
+      "id": "EMP-013",
+      "empCode": "TNU-FIN-001",
+      "name": "Ms. Pallavi Roy",
+      "email": "pallavi.accounts@tnu.edu.in",
+      "phone": "+91 98300 11013",
+      "role": "NON_FACULTY",
+      "category": "NON_FACULTY",
+      "designation": "Accounts Officer",
+      "level": "L-7",
+      "department": "Finance & Accounts",
+      "school": "University Administration",
+      "location": "Finance Wing",
+      "reportingAuthorityId": "EMP-002",
+      "reportingAuthorityName": "Mr. Amitabh Roy",
+      "salary": 58000,
+      "doj": "2026-01-15",
+      "probationStatus": "COMPLETED",
+      "probationEndDate": "2026-07-14",
+      "qualifications": "M.Com, Inter CA, Tally Prime Certified",
+      "status": "ACTIVE",
+      "digitalDossier": []
+    },
+    {
+      "id": "EMP-014",
+      "empCode": "TNU-LAB-001",
+      "name": "Mr. Joydeep Guha",
+      "email": "joydeep.lab@tnu.edu.in",
+      "phone": "+91 98300 11014",
+      "role": "NON_FACULTY",
+      "category": "NON_FACULTY",
+      "designation": "Senior Lab Technician",
+      "level": "L-6",
+      "department": "School of Engineering",
+      "school": "School of Engineering & Technology",
+      "location": "Engineering Workshop",
+      "reportingAuthorityId": "EMP-006",
+      "reportingAuthorityName": "Prof. (Dr.) Alok Chatterjee",
+      "salary": 46000,
+      "doj": "2025-10-01",
+      "probationStatus": "COMPLETED",
+      "probationEndDate": "2026-09-30",
+      "qualifications": "Diploma in Mechanical Engg, CNC Machine Operator",
+      "status": "ACTIVE",
+      "digitalDossier": []
+    },
+    {
+      "id": "EMP-015",
+      "empCode": "TNU-GRPD-001",
+      "name": "Mr. Ramu Haldar",
+      "email": "ramu.attendant@tnu.edu.in",
+      "phone": "+91 98300 11015",
+      "role": "GROUP_D",
+      "category": "GROUP_D",
+      "designation": "Office Attendant",
+      "level": "Band-I",
+      "department": "School of Engineering",
+      "school": "School of Engineering & Technology",
+      "location": "Dean Office, Engg Block A",
+      "reportingAuthorityId": "EMP-006",
+      "reportingAuthorityName": "Prof. (Dr.) Alok Chatterjee",
+      "salary": 24500,
+      "doj": "2024-05-15",
+      "probationStatus": "COMPLETED",
+      "probationEndDate": "2025-05-14",
+      "qualifications": "Secondary Pass (Class X)",
+      "status": "ACTIVE",
+      "digitalDossier": [
+        {
+          "title": "Joining Verification Docket",
+          "date": "2024-05-15",
+          "type": "ONBOARDING"
+        },
+        {
+          "title": "Probation Confirmation",
+          "date": "2025-05-20",
+          "type": "CONFIRMATION"
+        }
+      ]
+    },
+    {
+      "id": "EMP-016",
+      "empCode": "TNU-GRPD-002",
+      "name": "Mr. Biswanath Mondal",
+      "email": "biswanath.helper@tnu.edu.in",
+      "phone": "+91 98300 11016",
+      "role": "GROUP_D",
+      "category": "GROUP_D",
+      "designation": "Laboratory Helper",
+      "level": "Band-I",
+      "department": "Computer Science & Engineering",
+      "school": "School of Engineering & Technology",
+      "location": "Hardware & IoT Lab",
+      "reportingAuthorityId": "EMP-008",
+      "reportingAuthorityName": "Dr. Debasis Roy",
+      "salary": 23000,
+      "doj": "2025-08-20",
+      "probationStatus": "COMPLETED",
+      "probationEndDate": "2026-08-19",
+      "qualifications": "Class VIII Pass",
+      "status": "ACTIVE",
+      "digitalDossier": []
+    },
+    {
+      "id": "EMP-017",
+      "empCode": "TNU-GRPD-003",
+      "name": "Mr. Kartick Sardar",
+      "email": "kartick.driver@tnu.edu.in",
+      "phone": "+91 98300 11017",
+      "role": "GROUP_D",
+      "category": "GROUP_D",
+      "designation": "Heavy Vehicle Driver",
+      "level": "Band-I",
+      "department": "Administration",
+      "school": "Transport Section",
+      "location": "Transport Garage & Main Campus",
+      "reportingAuthorityId": "EMP-002",
+      "reportingAuthorityName": "Mr. Amitabh Roy",
+      "salary": 22000,
+      "doj": "2026-02-10",
+      "probationStatus": "IN_PROBATION",
+      "probationEndDate": "2027-02-09",
+      "qualifications": "Class X Pass, Commercial Heavy Driving License",
+      "status": "ACTIVE",
+      "digitalDossier": [
+        {
+          "title": "Driving License & Police Verification",
+          "date": "2026-02-10",
+          "type": "VERIFICATION"
+        }
+      ]
+    }
+  ],
+  "changeRequests": [
+    {
+      "id": "CR-2026-001",
+      "reqNumber": "CR-2026-001",
+      "employeeId": "EMP-009",
+      "employeeName": "Dr. Ananya Sen",
+      "department": "Computer Science & Engineering",
+      "changeType": "DESIGNATION_CHANGE",
+      "changeField": "designation",
+      "currentValue": "Assistant Professor (Senior Scale)",
+      "proposedValue": "Associate Professor",
+      "currentSecondaryValue": "L-11",
+      "proposedSecondaryValue": "L-13A",
+      "justification": "Successfully concluded sponsored DST-SERB Research Project, published 6 SCI-indexed papers in IEEE/Springer journals, completed UGC CAS criteria.",
+      "effectiveDate": "2026-11-01",
+      "status": "EFFECTIVE_APPLIED",
+      "stage": "COMPLETED",
+      "requestedBy": "Dr. Debasis Roy (HOD)",
+      "requestedAt": "2026-09-10T11:30:00.000Z",
+      "hrStatus": "APPROVED",
+      "hrReviewedBy": "Ms. Sunita Sharma (Head HR)",
+      "hrReviewedAt": "2026-09-12T15:20:00.000Z",
+      "hrRemarks": "Verified UGC eligibility criteria, publications verified by R&D Cell. Recommended for Senior Management approval.",
+      "managementStatus": "APPROVED",
+      "managementReviewedBy": "Prof. (Dr.) B. N. Sengupta (VC)",
+      "managementReviewedAt": "2026-09-16T17:00:00.000Z",
+      "managementRemarks": "Approved as recommended with effective date 1st Nov 2026.",
+      "effectiveAppliedAt": "2026-11-01T10:00:00.000Z"
+    },
+    {
+      "id": "CR-2026-002",
+      "reqNumber": "CR-2026-002",
+      "employeeId": "EMP-012",
+      "employeeName": "Mr. Subhashis Das",
+      "department": "IT Services",
+      "changeType": "SALARY_REVISION",
+      "changeField": "salary",
+      "currentValue": "₹68,000 / month",
+      "proposedValue": "₹78,000 / month",
+      "currentSecondaryValue": "L-8",
+      "proposedSecondaryValue": "L-8 (Merit Band)",
+      "justification": "Exceptional performance in migrating university campus infrastructure to high-availability cluster, achieved 99.98% uptime and flawless examination ERP delivery.",
+      "effectiveDate": "2026-10-01",
+      "status": "PENDING_MANAGEMENT",
+      "stage": "MANAGEMENT_REVIEW",
+      "requestedBy": "Mr. Amitabh Roy (VP - Administration)",
+      "requestedAt": "2026-09-22T10:15:00.000Z",
+      "hrStatus": "APPROVED",
+      "hrReviewedBy": "Ms. Sunita Sharma (Head HR)",
+      "hrReviewedAt": "2026-09-24T14:00:00.000Z",
+      "hrRemarks": "Quarterly review score composite is 93.5/100. Budget approved in annual administrative allocation.",
+      "managementStatus": "PENDING",
+      "managementReviewedBy": null,
+      "managementReviewedAt": null,
+      "managementRemarks": "",
+      "effectiveAppliedAt": null
+    },
+    {
+      "id": "CR-2026-003",
+      "reqNumber": "CR-2026-003",
+      "employeeId": "EMP-013",
+      "employeeName": "Ms. Pallavi Roy",
+      "department": "Finance & Accounts",
+      "changeType": "ADDITIONAL_RESPONSIBILITY",
+      "changeField": "additionalResponsibility",
+      "currentValue": "None",
+      "proposedValue": "Liaison Officer - Campus Placement Finance & Student Internships",
+      "currentSecondaryValue": "",
+      "proposedSecondaryValue": "",
+      "justification": "To coordinate stipend disbursals, corporate invoice reconciliations, and student placement financial clearances for the upcoming placement cycle.",
+      "effectiveDate": "2026-10-15",
+      "status": "PENDING_HR",
+      "stage": "HR_REVIEW",
+      "requestedBy": "Mr. Amitabh Roy (VP - Administration)",
+      "requestedAt": "2026-09-28T09:40:00.000Z",
+      "hrStatus": "PENDING",
+      "hrReviewedBy": null,
+      "hrReviewedAt": null,
+      "hrRemarks": "",
+      "managementStatus": "PENDING",
+      "managementReviewedBy": null,
+      "managementReviewedAt": null,
+      "managementRemarks": "",
+      "effectiveAppliedAt": null
+    },
+    {
+      "id": "CR-2026-004",
+      "reqNumber": "CR-2026-004",
+      "employeeId": "EMP-014",
+      "employeeName": "Mr. Joydeep Guha",
+      "department": "School of Engineering",
+      "changeType": "REPORTING_AUTH_CHANGE",
+      "changeField": "reportingAuthorityId",
+      "currentValue": "Prof. (Dr.) Alok Chatterjee (Dean)",
+      "proposedValue": "Dr. Debasis Roy (HOD - CSE)",
+      "currentSecondaryValue": "General Engineering Workshop",
+      "proposedSecondaryValue": "Embedded Systems & IoT Lab",
+      "justification": "Reallocation to Computer Science & IoT laboratories to support newly established Robotics and AI hardware curriculum.",
+      "effectiveDate": "2026-09-01",
+      "status": "EFFECTIVE_APPLIED",
+      "stage": "COMPLETED",
+      "requestedBy": "Prof. (Dr.) Alok Chatterjee (Dean)",
+      "requestedAt": "2026-08-15T14:10:00.000Z",
+      "hrStatus": "APPROVED",
+      "hrReviewedBy": "Ms. Sunita Sharma (Head HR)",
+      "hrReviewedAt": "2026-08-18T11:00:00.000Z",
+      "hrRemarks": "Workload and lab staffing ratios verified.",
+      "managementStatus": "APPROVED",
+      "managementReviewedBy": "Prof. (Dr.) B. N. Sengupta (VC)",
+      "managementReviewedAt": "2026-08-20T16:30:00.000Z",
+      "managementRemarks": "Approved and executed in Org Structure.",
+      "effectiveAppliedAt": "2026-09-01T00:00:00.000Z"
+    }
+  ],
+  "manpowerRequisitions": [
+    {
+      "id": "MRF-2026-001",
+      "mrfNumber": "MRF-ACAD-2026-01",
+      "requisitionType": "ANNUAL_ACADEMIC",
+      "positionTitle": "Associate Professor in Artificial Intelligence & Data Science",
+      "positionType": "ACADEMIC",
+      "department": "Computer Science & Engineering",
+      "school": "School of Engineering & Technology",
+      "vacanciesCount": 2,
+      "teachingLoadHoursPerWeek": 16,
+      "proposedCtcRange": "₹1,40,000 - ₹1,70,000 / month",
+      "minQualification": "Ph.D. in CSE / AI / Data Science with first class in B.Tech & M.Tech, UGC NET/GATE preferred, min 8 years teaching/research experience.",
+      "minExperienceYears": 8,
+      "justification": "Annual academic manpower planning. Student intake expansion in B.Tech CSE (AI & ML) by 120 seats as approved by Academic Council.",
+      "initiatedBy": "Dr. Piyush Ganguly (Assoc Dean Academics)",
+      "initiatedAt": "2026-08-10T10:00:00.000Z",
+      "vettingStatus": "VETTED",
+      "vettedBy": "Dr. Piyush Ganguly (Assoc Dean Academics)",
+      "vettingRemarks": "Teaching load analysis validated. Meets UGC student-teacher ratio norms of 1:15.",
+      "vettedAt": "2026-08-14T15:30:00.000Z",
+      "managementStatus": "APPROVED",
+      "managementApprovedBy": "Prof. (Dr.) B. N. Sengupta (Pro-Chancellor / VC)",
+      "managementRemarks": "Sanctioned 2 posts. Ensure Selection Committee includes external expert from IIT or Jadavpur.",
+      "managementApprovedAt": "2026-08-18T16:00:00.000Z",
+      "targetTatDays": 45,
+      "targetCompletionDate": "2026-10-15",
+      "status": "OPEN",
+      "advertisedChannels": [
+        "WEBSITE",
+        "LINKEDIN",
+        "PRINT_MEDIA"
+      ]
+    },
+    {
+      "id": "MRF-2026-002",
+      "mrfNumber": "MRF-NONACAD-2026-02",
+      "requisitionType": "OPERATIONAL_NON_ACADEMIC",
+      "positionTitle": "Network & Cyber Security Specialist",
+      "positionType": "NON_ACADEMIC",
+      "department": "IT Services",
+      "school": "University Administration",
+      "vacanciesCount": 1,
+      "teachingLoadHoursPerWeek": 0,
+      "proposedCtcRange": "₹65,000 - ₹85,000 / month",
+      "minQualification": "B.Tech in IT/CS or MCA with certifications in CEH / CISSP / Fortinet / CCNA Security. Min 4 years hands-on experience.",
+      "minExperienceYears": 4,
+      "justification": "To manage university firewalls, 24/7 campus WiFi infrastructure, cyber forensic compliance, and multi-cloud campus ERP security.",
+      "initiatedBy": "Mr. Subhashis Das (Senior Systems Admin)",
+      "initiatedAt": "2026-08-25T11:00:00.000Z",
+      "vettingStatus": "VETTED",
+      "vettedBy": "Ms. Sunita Sharma (Head HR)",
+      "vettingRemarks": "Operational necessity verified. Job description benchmarked with university scale.",
+      "vettedAt": "2026-08-27T12:00:00.000Z",
+      "managementStatus": "APPROVED",
+      "managementApprovedBy": "Mr. Amitabh Roy (VP - Administration)",
+      "managementRemarks": "Approved for immediate recruitment.",
+      "managementApprovedAt": "2026-08-30T14:00:00.000Z",
+      "targetTatDays": 30,
+      "targetCompletionDate": "2026-10-05",
+      "status": "IN_PROGRESS",
+      "advertisedChannels": [
+        "WEBSITE",
+        "LINKEDIN",
+        "INTERNSHALA"
+      ]
+    },
+    {
+      "id": "MRF-2026-003",
+      "mrfNumber": "MRF-URGENT-2026-03",
+      "requisitionType": "URGENT_REPLACEMENT",
+      "positionTitle": "Assistant Professor in Structural Engineering",
+      "positionType": "ACADEMIC",
+      "department": "Civil Engineering",
+      "school": "School of Engineering & Technology",
+      "vacanciesCount": 1,
+      "teachingLoadHoursPerWeek": 18,
+      "replacementForEmployeeName": "Dr. S. K. Mitra (Resigned)",
+      "resignationAcceptanceDate": "2026-09-12",
+      "proposedCtcRange": "₹75,000 - ₹95,000 / month",
+      "minQualification": "M.Tech / Ph.D. in Civil / Structural Engg, UGC NET/GATE.",
+      "minExperienceYears": 3,
+      "justification": "Urgent replacement due to resignation of faculty in mid-semester. Classes currently distributed to guest lecturers.",
+      "initiatedBy": "Prof. (Dr.) Alok Chatterjee (Dean)",
+      "initiatedAt": "2026-09-15T09:30:00.000Z",
+      "vettingStatus": "VETTED",
+      "vettedBy": "Dr. Piyush Ganguly (Assoc Dean Academics)",
+      "vettingRemarks": "Immediate replacement essential for NAAC and NBA compliance.",
+      "vettedAt": "2026-09-16T11:00:00.000Z",
+      "managementStatus": "APPROVED",
+      "managementApprovedBy": "Prof. (Dr.) B. N. Sengupta (VC)",
+      "managementRemarks": "Expedited recruitment authorized.",
+      "managementApprovedAt": "2026-09-17T15:00:00.000Z",
+      "targetTatDays": 25,
+      "targetCompletionDate": "2026-10-12",
+      "status": "OPEN",
+      "advertisedChannels": [
+        "WEBSITE",
+        "LINKEDIN",
+        "PRINT_MEDIA",
+        "FACEBOOK"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "CAND-2026-101",
+      "candidateCode": "CV-2026-001",
+      "mrfId": "MRF-2026-001",
+      "mrfTitle": "Associate Professor in AI & Data Science",
+      "positionType": "ACADEMIC",
+      "fullName": "Dr. Arnab Mukherjee",
+      "email": "arnab.mukherjee.phd@gmail.com",
+      "phone": "+91 94331 44550",
+      "channelSource": "LINKEDIN",
+      "resumeFileName": "CV_Dr_Arnab_Mukherjee_AI.pdf",
+      "highestQualification": "Ph.D. in Computer Science (IIT Kharagpur)",
+      "ugcNetGateQualified": true,
+      "phdCompleted": true,
+      "totalExperienceYears": 9.5,
+      "currentCtc": 1350000,
+      "expectedCtc": 1800000,
+      "shortlistingStatus": "SHORTLISTED",
+      "shortlistingScore": 94,
+      "ugcNormsCompliant": true,
+      "recruiterCallStatus": "COMPLETED",
+      "rcsNotes": "Spoke on 28 Aug. Candidate has 14 SCI publications, 2 patents filed. Willing to relocate to campus quarters. Current notice period 30 days.",
+      "rcsRecruiterName": "Mr. Vikram Malhotra",
+      "rcsDate": "2026-08-28",
+      "mgmtInterviewClearance": "CLEARED",
+      "mgmtClearanceRemarks": "Cleared for Selection Committee interview.",
+      "selectionStage": "YET_TO_JOIN",
+      "selectionWorkflow": {
+        "academicSelectionCommittee": {
+          "scheduledDate": "2026-09-10",
+          "interviewMode": "HYBRID_ONLINE",
+          "externalSubjectExpert": "Prof. K. K. Biswas (Retd. IIT Delhi)",
+          "teachingPedagogyScore": 92,
+          "researchPublicationsScore": 95,
+          "domainDepthScore": 94,
+          "totalScore": 93.6,
+          "committeeRecommendation": "RECOMMENDED_STRONGLY",
+          "committeeRemarks": "Exceptional mastery in Generative AI and Reinforcement Learning. Highly recommended for Associate Professor."
+        },
+        "managementCostApproval": {
+          "approvedCtcMonthly": 155000,
+          "approvedDesignation": "Associate Professor",
+          "approvedBy": "Prof. (Dr.) B. N. Sengupta (VC) & Mr. Amitabh Roy (VP)",
+          "costApprovalDate": "2026-09-14",
+          "remarks": "Cost approved as per UGC 7th Pay scale equivalent band."
+        }
+      },
+      "loiDetails": {
+        "loiNumber": "TNU/HR/LOI/2026/089",
+        "issuedDate": "2026-09-16",
+        "offeredSalary": 155000,
+        "offeredDesignation": "Associate Professor",
+        "acceptanceStatus": "ACCEPTED",
+        "acceptedDate": "2026-09-18",
+        "noticePeriodDays": 30,
+        "expectedDoj": "2026-10-20",
+        "verificationStatus": "VERIFIED",
+        "preOnboardingMilestones": {
+          "loiAccepted": true,
+          "policeBackgroundVerification": true,
+          "educationalCertsVerified": true,
+          "relievingLetterSubmitted": false,
+          "healthCheckupCleared": true,
+          "orientationDocketPrepared": true
+        }
+      }
+    },
+    {
+      "id": "CAND-2026-102",
+      "candidateCode": "CV-2026-002",
+      "mrfId": "MRF-2026-001",
+      "mrfTitle": "Associate Professor in AI & Data Science",
+      "positionType": "ACADEMIC",
+      "fullName": "Dr. Mousumi Poddar",
+      "email": "mousumi.poddar@yahoo.co.in",
+      "phone": "+91 98311 22334",
+      "channelSource": "WEBSITE",
+      "resumeFileName": "Dr_Mousumi_Poddar_Resume.pdf",
+      "highestQualification": "Ph.D. in Computer Engg (NIT Rourkela)",
+      "ugcNetGateQualified": true,
+      "phdCompleted": true,
+      "totalExperienceYears": 8,
+      "currentCtc": 1200000,
+      "expectedCtc": 1650000,
+      "shortlistingStatus": "SHORTLISTED",
+      "shortlistingScore": 88,
+      "ugcNormsCompliant": true,
+      "recruiterCallStatus": "COMPLETED",
+      "rcsNotes": "Spoke on 02 Sep. Candidate has 8 SCI papers. Interested in Big Data lab setup.",
+      "rcsRecruiterName": "Mr. Vikram Malhotra",
+      "rcsDate": "2026-09-02",
+      "mgmtInterviewClearance": "CLEARED",
+      "mgmtClearanceRemarks": "Cleared for interview round.",
+      "selectionStage": "INTERVIEW_SCHEDULED",
+      "selectionWorkflow": {
+        "academicSelectionCommittee": {
+          "scheduledDate": "2026-10-06T11:00:00.000Z",
+          "interviewMode": "ONLINE",
+          "externalSubjectExpert": "Prof. S. R. Bhattacharya (ISI Kolkata)",
+          "teachingPedagogyScore": 0,
+          "researchPublicationsScore": 0,
+          "domainDepthScore": 0,
+          "totalScore": 0,
+          "committeeRecommendation": "AWAITING_INTERVIEW",
+          "committeeRemarks": "Interview invitation sent with digital dossier."
+        }
+      }
+    },
+    {
+      "id": "CAND-2026-103",
+      "candidateCode": "CV-2026-003",
+      "mrfId": "MRF-2026-002",
+      "mrfTitle": "Network & Cyber Security Specialist",
+      "positionType": "NON_ACADEMIC",
+      "fullName": "Mr. Tanmoy Goswami",
+      "email": "tanmoy.sec@outlook.com",
+      "phone": "+91 97481 99882",
+      "channelSource": "LINKEDIN",
+      "resumeFileName": "Tanmoy_Goswami_CyberSec.pdf",
+      "highestQualification": "B.Tech IT + Certified Ethical Hacker (CEH v12)",
+      "ugcNetGateQualified": false,
+      "phdCompleted": false,
+      "totalExperienceYears": 5.2,
+      "currentCtc": 650000,
+      "expectedCtc": 850000,
+      "shortlistingStatus": "SHORTLISTED",
+      "shortlistingScore": 91,
+      "ugcNormsCompliant": true,
+      "recruiterCallStatus": "COMPLETED",
+      "rcsNotes": "Excellent command over Fortinet, Cisco ASA, and SIEM tools. Currently in Kolkata.",
+      "rcsRecruiterName": "Mr. Vikram Malhotra",
+      "rcsDate": "2026-09-05",
+      "mgmtInterviewClearance": "CLEARED",
+      "mgmtClearanceRemarks": "Proceed with Non-Academic 3-Round Evaluation.",
+      "selectionStage": "EVALUATED",
+      "selectionWorkflow": {
+        "nonAcademicRounds": {
+          "round1Technical": {
+            "evaluator": "Mr. Subhashis Das (Senior Systems Admin)",
+            "jobKnowledgeScore": 90,
+            "technicalSkillsScore": 92,
+            "remarks": "Handled live troubleshooting lab scenarios effectively. Clear concepts of VLANs and zero-trust.",
+            "status": "RECOMMENDED"
+          },
+          "round2HR": {
+            "evaluator": "Ms. Sunita Sharma (Head HR)",
+            "communicationScore": 86,
+            "attitudeCultureFitScore": 88,
+            "remarks": "Very professional communication, eager to handle 24/7 campus network operations.",
+            "status": "RECOMMENDED"
+          },
+          "round3Management": {
+            "evaluator": "Mr. Amitabh Roy (VP - Administration)",
+            "leadershipIntegrityScore": 88,
+            "verdict": "APPROVED",
+            "remarks": "Cost approved at ₹72,000/month CTC. Issue LOI."
+          }
+        }
+      },
+      "loiDetails": {
+        "loiNumber": "TNU/HR/LOI/2026/092",
+        "issuedDate": "2026-09-29",
+        "offeredSalary": 72000,
+        "offeredDesignation": "Network & Cyber Security Specialist",
+        "acceptanceStatus": "PENDING",
+        "acceptedDate": null,
+        "noticePeriodDays": 15,
+        "expectedDoj": "2026-10-18",
+        "verificationStatus": "IN_PROGRESS",
+        "preOnboardingMilestones": {
+          "loiAccepted": false,
+          "policeBackgroundVerification": true,
+          "educationalCertsVerified": true,
+          "relievingLetterSubmitted": false,
+          "healthCheckupCleared": false,
+          "orientationDocketPrepared": false
+        }
+      }
+    },
+    {
+      "id": "CAND-2026-104",
+      "candidateCode": "CV-2026-004",
+      "mrfId": "MRF-2026-003",
+      "mrfTitle": "Assistant Professor in Structural Engineering",
+      "positionType": "ACADEMIC",
+      "fullName": "Mr. Arko Bhattacharya",
+      "email": "arko.civil@gmail.com",
+      "phone": "+91 90512 33441",
+      "channelSource": "PRINT_MEDIA",
+      "resumeFileName": "Arko_Civil_Resume.pdf",
+      "highestQualification": "M.Tech in Structural Engg (IIEST Shibpur), Ph.D. Pursuing",
+      "ugcNetGateQualified": true,
+      "phdCompleted": false,
+      "totalExperienceYears": 3.5,
+      "currentCtc": 680000,
+      "expectedCtc": 850000,
+      "shortlistingStatus": "SHORTLISTED",
+      "shortlistingScore": 82,
+      "ugcNormsCompliant": true,
+      "recruiterCallStatus": "PENDING",
+      "rcsNotes": "",
+      "rcsRecruiterName": "",
+      "rcsDate": null,
+      "mgmtInterviewClearance": "PENDING",
+      "mgmtClearanceRemarks": "",
+      "selectionStage": "SHORTLISTED"
+    }
+  ],
+  "groupDFormTemplates": [
+    {
+      "id": "TPL-GRPD-OFFICE",
+      "roleName": "Office Attendant / Peon",
+      "version": "v2.1 (2026)",
+      "kpis": [
+        {
+          "id": "kpi-1",
+          "name": "Timely Distribution of Office Files & Circulars",
+          "weight": 25,
+          "maxScore": 25
+        },
+        {
+          "id": "kpi-2",
+          "name": "Punctuality, Meeting Room Setup & Cleanliness",
+          "weight": 25,
+          "maxScore": 25
+        },
+        {
+          "id": "kpi-3",
+          "name": "Maintenance & Care of Office Equipment & Supplies",
+          "weight": 20,
+          "maxScore": 20
+        },
+        {
+          "id": "kpi-4",
+          "name": "Responsiveness to Urgent Administrative Requests",
+          "weight": 15,
+          "maxScore": 15
+        },
+        {
+          "id": "kpi-5",
+          "name": "Discipline, Uniformity & Polite Conduct",
+          "weight": 15,
+          "maxScore": 15
+        }
+      ],
+      "competencies": [
+        {
+          "id": "comp-1",
+          "name": "Reliability & Confidentiality",
+          "weight": 50,
+          "maxScore": 50
+        },
+        {
+          "id": "comp-2",
+          "name": "Interpersonal Politeness & Diligence",
+          "weight": 50,
+          "maxScore": 50
+        }
+      ]
+    },
+    {
+      "id": "TPL-GRPD-LAB",
+      "roleName": "Laboratory Helper / Attendant",
+      "version": "v2.0 (2026)",
+      "kpis": [
+        {
+          "id": "kpi-1",
+          "name": "Lab Apparatus Cleaning & Pre-Lab Setup",
+          "weight": 30,
+          "maxScore": 30
+        },
+        {
+          "id": "kpi-2",
+          "name": "Equipment Safety & Power Shutdown Compliance",
+          "weight": 25,
+          "maxScore": 25
+        },
+        {
+          "id": "kpi-3",
+          "name": "Stock Upkeep of Consumables & Glassware",
+          "weight": 25,
+          "maxScore": 25
+        },
+        {
+          "id": "kpi-4",
+          "name": "Punctuality & Assistance to Faculty / Lab Tech",
+          "weight": 20,
+          "maxScore": 20
+        }
+      ],
+      "competencies": [
+        {
+          "id": "comp-1",
+          "name": "Laboratory Safety Awareness",
+          "weight": 50,
+          "maxScore": 50
+        },
+        {
+          "id": "comp-2",
+          "name": "Teamwork & Alertness",
+          "weight": 50,
+          "maxScore": 50
+        }
+      ]
+    },
+    {
+      "id": "TPL-GRPD-DRIVER",
+      "roleName": "Heavy Vehicle Driver / Campus Transport",
+      "version": "v1.8 (2026)",
+      "kpis": [
+        {
+          "id": "kpi-1",
+          "name": "Route Schedule Adherence & Punctuality",
+          "weight": 30,
+          "maxScore": 30
+        },
+        {
+          "id": "kpi-2",
+          "name": "Vehicle Maintenance, Logbook & Fuel Efficiency",
+          "weight": 25,
+          "maxScore": 25
+        },
+        {
+          "id": "kpi-3",
+          "name": "Safe Driving & Zero Accident Record",
+          "weight": 30,
+          "maxScore": 30
+        },
+        {
+          "id": "kpi-4",
+          "name": "Emergency Response & Courteous Passenger Behavior",
+          "weight": 15,
+          "maxScore": 15
+        }
+      ],
+      "competencies": [
+        {
+          "id": "comp-1",
+          "name": "Vehicle Safety Protocols",
+          "weight": 50,
+          "maxScore": 50
+        },
+        {
+          "id": "comp-2",
+          "name": "Integrity & Sobriety",
+          "weight": 50,
+          "maxScore": 50
+        }
+      ]
+    }
+  ],
+  "groupDMonthlyEvaluations": [
+    {
+      "id": "GDE-2026-09-015",
+      "employeeId": "EMP-015",
+      "employeeName": "Mr. Ramu Haldar",
+      "roleTitle": "Office Attendant",
+      "department": "School of Engineering",
+      "monthYear": "2026-09",
+      "cycleMonth": "September 2026",
+      "hodId": "EMP-006",
+      "hodName": "Prof. (Dr.) Alok Chatterjee (Dean)",
+      "templateId": "TPL-GRPD-OFFICE",
+      "dueDate": "2026-10-07",
+      "graceDueDate": "2026-10-10",
+      "submissionDate": "2026-10-05T14:30:00.000Z",
+      "status": "APPROVED_VP_ADMIN",
+      "kpiScores": [
+        {
+          "kpiId": "kpi-1",
+          "score": 24,
+          "max": 25
+        },
+        {
+          "kpiId": "kpi-2",
+          "score": 23,
+          "max": 25
+        },
+        {
+          "kpiId": "kpi-3",
+          "score": 19,
+          "max": 20
+        },
+        {
+          "kpiId": "kpi-4",
+          "score": 14,
+          "max": 15
+        },
+        {
+          "kpiId": "kpi-5",
+          "score": 14,
+          "max": 15
+        }
+      ],
+      "competencyScores": [
+        {
+          "compId": "comp-1",
+          "score": 48,
+          "max": 50
+        },
+        {
+          "compId": "comp-2",
+          "score": 47,
+          "max": 50
+        }
+      ],
+      "totalKpiScore": 94,
+      "totalCompetencyScore": 95,
+      "overallCompositeScore": 94.5,
+      "hodComments": "Extremely diligent, always keeps the Dean conference hall ready before time.",
+      "positiveObservations": "Ensured uninterrupted administrative dispatch during university accreditation audit.",
+      "negativeObservations": "None.",
+      "vpAdminApproval": {
+        "approvedBy": "Mr. Amitabh Roy (VP - Administration)",
+        "approvedAt": "2026-10-06T16:15:00.000Z",
+        "remarks": "Approved for collation into digital dossier."
+      },
+      "isAutoLocked": false,
+      "lockReason": ""
+    },
+    {
+      "id": "GDE-2026-09-016",
+      "employeeId": "EMP-016",
+      "employeeName": "Mr. Biswanath Mondal",
+      "roleTitle": "Laboratory Helper",
+      "department": "Computer Science & Engineering",
+      "monthYear": "2026-09",
+      "cycleMonth": "September 2026",
+      "hodId": "EMP-008",
+      "hodName": "Dr. Debasis Roy (HOD - CSE)",
+      "templateId": "TPL-GRPD-LAB",
+      "dueDate": "2026-10-07",
+      "graceDueDate": "2026-10-10",
+      "submissionDate": null,
+      "status": "AUTO_LOCKED_OVERDUE",
+      "kpiScores": [],
+      "competencyScores": [],
+      "totalKpiScore": 0,
+      "totalCompetencyScore": 0,
+      "overallCompositeScore": 0,
+      "hodComments": "",
+      "positiveObservations": "",
+      "negativeObservations": "",
+      "vpAdminApproval": null,
+      "isAutoLocked": true,
+      "lockReason": "Automated SOP Enforcement: Missed submission deadline (7th) and grace period (10th). Auto-locked on 2026-10-11."
+    },
+    {
+      "id": "GDE-2026-08-017",
+      "employeeId": "EMP-017",
+      "employeeName": "Mr. Kartick Sardar",
+      "roleTitle": "Heavy Vehicle Driver",
+      "department": "Administration",
+      "monthYear": "2026-08",
+      "cycleMonth": "August 2026",
+      "hodId": "EMP-002",
+      "hodName": "Mr. Amitabh Roy (VP - Administration)",
+      "templateId": "TPL-GRPD-DRIVER",
+      "dueDate": "2026-09-07",
+      "graceDueDate": "2026-09-10",
+      "submissionDate": null,
+      "status": "AUTO_LOCKED_OVERDUE",
+      "kpiScores": [],
+      "competencyScores": [],
+      "totalKpiScore": 0,
+      "totalCompetencyScore": 0,
+      "overallCompositeScore": 0,
+      "hodComments": "",
+      "positiveObservations": "",
+      "negativeObservations": "",
+      "vpAdminApproval": null,
+      "isAutoLocked": true,
+      "lockReason": "System auto-lock enforced: HOD evaluation form was not submitted prior to grace period deadline of 10th August 2026."
+    }
+  ],
+  "groupDAnnualReports": [
+    {
+      "id": "GD-ANN-2026-015",
+      "employeeId": "EMP-015",
+      "employeeName": "Mr. Ramu Haldar",
+      "evaluationYear": "2025-2026",
+      "doj": "2024-05-15",
+      "completedYears": 2,
+      "probationStatus": "COMPLETED",
+      "probationCheckPassed": true,
+      "monthlyCollatedScores": [
+        {
+          "month": "2025-10",
+          "score": 91
+        },
+        {
+          "month": "2025-11",
+          "score": 89
+        },
+        {
+          "month": "2025-12",
+          "score": 93
+        },
+        {
+          "month": "2026-01",
+          "score": 92
+        },
+        {
+          "month": "2026-02",
+          "score": 94
+        },
+        {
+          "month": "2026-03",
+          "score": 90
+        },
+        {
+          "month": "2026-04",
+          "score": 95
+        },
+        {
+          "month": "2026-05",
+          "score": 92
+        },
+        {
+          "month": "2026-06",
+          "score": 88
+        },
+        {
+          "month": "2026-07",
+          "score": 93
+        },
+        {
+          "month": "2026-08",
+          "score": 95
+        },
+        {
+          "month": "2026-09",
+          "score": 94.5
+        }
+      ],
+      "annualWeightedAverageScore": 92.3,
+      "currentSalary": 24500,
+      "recommendedCompensationSlab": {
+        "slabName": "Slab A (Score >= 90%) - Merit Increment",
+        "percentageIncrease": 10,
+        "proposedNewSalary": 26950
+      },
+      "managementReviewStatus": "APPROVED",
+      "managementDecisionDate": "2026-10-02T11:00:00.000Z",
+      "managementNotes": "Probation successfully completed. Recommended increment approved for November payroll cycle."
+    }
+  ],
+  "generalEmployeeGoals": [
+    {
+      "id": "GOAL-2026-012",
+      "employeeId": "EMP-012",
+      "employeeName": "Mr. Subhashis Das",
+      "designation": "Senior Systems Administrator",
+      "department": "IT Services",
+      "doj": "2025-06-10",
+      "goalSettingDeadline": "2025-07-10",
+      "submissionDate": "2025-07-02",
+      "slaAdherence": "WITHIN_30_DAYS",
+      "status": "MGMT_LOCKED",
+      "kpiItems": [
+        {
+          "id": "k-1",
+          "kra": "Infrastructure Uptime",
+          "metric": "Maintain 99.9% uptime for core ERP & Campus Network",
+          "weight": 35,
+          "target": "99.9% availability"
+        },
+        {
+          "id": "k-2",
+          "kra": "Information Security & Backup",
+          "metric": "Zero ransomware incidents & 100% daily offsite encrypted backup",
+          "weight": 30,
+          "target": "Weekly DR test"
+        },
+        {
+          "id": "k-3",
+          "kra": "Helpdesk Ticket Resolution SLA",
+          "metric": "Resolve 95% tickets within 4 hours",
+          "weight": 20,
+          "target": "< 4 hrs avg MTTR"
+        },
+        {
+          "id": "k-4",
+          "kra": "Cloud Cost Optimization",
+          "metric": "Optimize cloud usage & license allocation",
+          "weight": 15,
+          "target": "10% cost reduction"
+        }
+      ],
+      "hrVerified": true,
+      "hrVerifiedBy": "Ms. Sunita Sharma",
+      "mgmtVerified": true,
+      "mgmtVerifiedBy": "Mr. Amitabh Roy",
+      "lockedAt": "2025-07-05T12:00:00.000Z"
+    }
+  ],
+  "quarterlyReviews": [
+    {
+      "id": "QR-2026-012-Q1",
+      "employeeId": "EMP-012",
+      "employeeName": "Mr. Subhashis Das",
+      "quarter": "Q1",
+      "targetDaysMark": 90,
+      "dueDate": "2025-09-25",
+      "submittedAt": "2025-09-20",
+      "employeeAchievements": "Upgraded campus core switches and deployed redundant fiber link without any downtime.",
+      "selfScore": 92,
+      "reportingAuthorityReview": {
+        "verifiedBy": "Mr. Amitabh Roy (VP)",
+        "verifiedAt": "2025-09-24",
+        "score": 94,
+        "comments": "Excellent proactive execution."
+      },
+      "hrReview": {
+        "reviewedBy": "Ms. Sunita Sharma",
+        "reviewedAt": "2025-09-26",
+        "recommendation": "Exceeded SLA."
+      },
+      "mgmtReview": {
+        "reviewedBy": "Prof. (Dr.) B. N. Sengupta",
+        "reviewedAt": "2025-09-28",
+        "decision": "APPROVED_EXCELLENT"
+      },
+      "status": "COMPLETED"
+    },
+    {
+      "id": "QR-2026-012-Q2",
+      "employeeId": "EMP-012",
+      "employeeName": "Mr. Subhashis Das",
+      "quarter": "Q2",
+      "targetDaysMark": 180,
+      "dueDate": "2025-12-25",
+      "submittedAt": "2025-12-22",
+      "employeeAchievements": "Completed disaster recovery rehearsal and deployed automated snapshotting.",
+      "selfScore": 91,
+      "reportingAuthorityReview": {
+        "verifiedBy": "Mr. Amitabh Roy (VP)",
+        "verifiedAt": "2025-12-24",
+        "score": 92,
+        "comments": "High reliability maintained."
+      },
+      "hrReview": {
+        "reviewedBy": "Ms. Sunita Sharma",
+        "reviewedAt": "2025-12-27",
+        "recommendation": "Consistent high performance."
+      },
+      "mgmtReview": {
+        "reviewedBy": "Prof. (Dr.) B. N. Sengupta",
+        "reviewedAt": "2025-12-30",
+        "decision": "APPROVED_EXCELLENT"
+      },
+      "status": "COMPLETED"
+    },
+    {
+      "id": "QR-2026-012-Q3",
+      "employeeId": "EMP-012",
+      "employeeName": "Mr. Subhashis Das",
+      "quarter": "Q3",
+      "targetDaysMark": 270,
+      "dueDate": "2026-03-25",
+      "submittedAt": "2026-03-23",
+      "employeeAchievements": "Integrated single sign-on (SSO) for 3500+ university students and faculty members.",
+      "selfScore": 95,
+      "reportingAuthorityReview": {
+        "verifiedBy": "Mr. Amitabh Roy (VP)",
+        "verifiedAt": "2026-03-25",
+        "score": 96,
+        "comments": "SSO transition executed seamlessly during exams."
+      },
+      "hrReview": {
+        "reviewedBy": "Ms. Sunita Sharma",
+        "reviewedAt": "2026-03-28",
+        "recommendation": "Recommended for high merit recognition."
+      },
+      "mgmtReview": {
+        "reviewedBy": "Prof. (Dr.) B. N. Sengupta",
+        "reviewedAt": "2026-03-31",
+        "decision": "APPROVED_EXCELLENT"
+      },
+      "status": "COMPLETED"
+    },
+    {
+      "id": "QR-2026-012-Q4",
+      "employeeId": "EMP-012",
+      "employeeName": "Mr. Subhashis Das",
+      "quarter": "Q4",
+      "targetDaysMark": 360,
+      "dueDate": "2026-06-25",
+      "submittedAt": "2026-06-20",
+      "employeeAchievements": "Annual cybersecurity audit passed with zero critical vulnerabilities.",
+      "selfScore": 93,
+      "reportingAuthorityReview": {
+        "verifiedBy": "Mr. Amitabh Roy (VP)",
+        "verifiedAt": "2026-06-24",
+        "score": 93,
+        "comments": "Outstanding full year performance across all SLAs."
+      },
+      "hrReview": {
+        "reviewedBy": "Ms. Sunita Sharma",
+        "reviewedAt": "2026-06-27",
+        "recommendation": "Trigger Annual Appraisal & Module I increment integration."
+      },
+      "mgmtReview": {
+        "reviewedBy": "Prof. (Dr.) B. N. Sengupta",
+        "reviewedAt": "2026-06-30",
+        "decision": "APPROVED_EXCELLENT"
+      },
+      "status": "COMPLETED"
+    }
+  ],
+  "generalAnnualAppraisals": [
+    {
+      "id": "GAA-2026-012",
+      "employeeId": "EMP-012",
+      "employeeName": "Mr. Subhashis Das",
+      "year": "2025-2026",
+      "quarterScores": [
+        94,
+        92,
+        96,
+        93
+      ],
+      "compositeAnnualScore": 93.75,
+      "hrSummaryRecommendation": "Promote to Senior Specialist or grant merit salary increment of ₹10,000/month.",
+      "mgmtDecision": "INCREMENT_APPROVED",
+      "mgmtDecisionDetails": {
+        "incrementAmount": 10000,
+        "newSalary": 78000,
+        "effectiveDate": "2026-10-01"
+      },
+      "syncedToModuleIChangeRequest": true,
+      "linkedChangeRequestId": "CR-2026-002",
+      "status": "COMPLETED"
+    }
+  ],
+  "facultyEcmAppraisals": [
+    {
+      "id": "ECM-2026-009",
+      "cycleMonthYear": "2026-09",
+      "employeeId": "EMP-009",
+      "employeeName": "Dr. Ananya Sen",
+      "designation": "Assistant Professor (Senior Scale)",
+      "department": "Computer Science & Engineering",
+      "doj": "2024-08-01",
+      "probationCompleted": true,
+      "monthsSinceLastAppraisalOrDoj": 14,
+      "isAutoEligible": true,
+      "eligibilityRoutedToRegistrarDate": "2026-09-10",
+      "selfAppraisalFormIssuedDate": "2026-09-11",
+      "selfAppraisalSubmissionDeadline": "2026-09-18",
+      "selfAppraisalSubmittedDate": "2026-09-16",
+      "selfAppraisalData": {
+        "teachingAndPedagogy": {
+          "coursesTaught": "Deep Learning (CSE-701), Advanced Algorithms (CSE-502)",
+          "studentFeedbackRating": 4.8,
+          "teachingHoursCompleted": 480,
+          "scoreSelf": 95
+        },
+        "researchAndPublications": {
+          "scopusIeeePapers": 6,
+          "citationsAdded": 84,
+          "booksChapters": 1,
+          "scoreSelf": 96
+        },
+        "sponsoredResearchAndGrants": {
+          "grantTitle": "DST-SERB AI in Medical Imaging",
+          "grantAmountLakhs": 24.5,
+          "scoreSelf": 92
+        },
+        "institutionalContribution": {
+          "duties": "NBA & NAAC Departmental Coordinator, Coding Club Faculty Mentor",
+          "scoreSelf": 90
+        }
+      },
+      "stakeholderVerifications": [
+        {
+          "stakeholder": "SCHOOL_DEAN",
+          "name": "Prof. (Dr.) Alok Chatterjee (Dean - Engg)",
+          "status": "VERIFIED",
+          "verifiedAt": "2026-09-19T11:00:00.000Z",
+          "remarks": "Curriculum delivery and student engagement benchmarks verified. Outstanding score."
+        },
+        {
+          "stakeholder": "RD_CELL",
+          "name": "Prof. S. Majumdar (Director - R&D)",
+          "status": "VERIFIED",
+          "verifiedAt": "2026-09-20T14:30:00.000Z",
+          "remarks": "All 6 SCI publications indexed, DST grant sanction order verified."
+        },
+        {
+          "stakeholder": "PLACEMENT_CELL",
+          "name": "Mr. K. Banerjee (Head - Placements)",
+          "status": "VERIFIED",
+          "verifiedAt": "2026-09-21T10:15:00.000Z",
+          "remarks": "Mentored 42 students into Tier-1 product companies."
+        },
+        {
+          "stakeholder": "HR_DEPARTMENT",
+          "name": "Ms. Sunita Sharma (Head HR)",
+          "status": "VERIFIED",
+          "verifiedAt": "2026-09-22T16:00:00.000Z",
+          "remarks": "Attendance and service norms cleared without discrepancies."
+        }
+      ],
+      "ecmMeeting": {
+        "scheduledBy": "Dr. R. K. Mukherjee (Registrar)",
+        "scheduledDate": "2026-09-25T11:30:00.000Z",
+        "venueMode": "CONFERENCE_ROOM_A_AND_ONLINE",
+        "committeeMembers": [
+          "Prof. (Dr.) B. N. Sengupta (Vice-Chancellor - Chair)",
+          "Dr. R. K. Mukherjee (Registrar - Secretary)",
+          "Prof. (Dr.) Alok Chatterjee (Dean)",
+          "Prof. P. K. Sinha (External Subject Expert - IIT)",
+          "Ms. Sunita Sharma (HR Rep)"
+        ],
+        "status": "CONCLUDED"
+      },
+      "digitalEcmScoreSheet": {
+        "teachingScore100": 95,
+        "researchScore100": 96,
+        "consultancyGrantScore50": 48,
+        "institutionalDevScore50": 46,
+        "totalTnuProtocolScore": 285,
+        "tnuPercentage": 95,
+        "committeeRemarks": "Exemplary academic and research performance. Unanimously recommended for promotion and salary increment."
+      },
+      "evaluationMatrixCompiled": {
+        "previousIncrementDetails": "Last increment granted at joining (August 2024).",
+        "compiledDate": "2026-09-26T12:00:00.000Z",
+        "routedToManagementDate": "2026-09-26T15:00:00.000Z"
+      },
+      "managementDecision": {
+        "decisionType": "PROMOTION_AND_COMPENSATION_REVISION",
+        "newDesignation": "Associate Professor",
+        "newMonthlySalary": 115000,
+        "salaryIncreaseAmount": 17000,
+        "effectiveSalaryCycleMonth": "November 2026",
+        "decidedBy": "Prof. (Dr.) B. N. Sengupta (VC)",
+        "decisionDate": "2026-09-28T16:30:00.000Z",
+        "remarks": "Approved as recommended. Outstanding contributor to university research profile.",
+        "officialLetterGenerated": true,
+        "letterReferenceNumber": "TNU/REG/ECM/2026/044",
+        "routedToPayroll": true,
+        "payrollRoutingDate": "2026-09-29T10:00:00.000Z"
+      },
+      "status": "COMPLETED"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NOTIF-001",
+      "targetRole": "ALL",
+      "title": "Module III Group-D Monthly Evaluations Due Soon",
+      "message": "Monthly evaluation forms for September 2026 are due by 7th October. Grace period extends to 10th October.",
+      "timestamp": "2026-10-01T08:00:00.000Z",
+      "type": "DEADLINE_WARNING",
+      "read": false
+    },
+    {
+      "id": "NOTIF-002",
+      "targetRole": "REGISTRAR",
+      "title": "Faculty ECM Eligibility List Generated",
+      "message": "System has generated the eligible Faculty list for the upcoming October cycle.",
+      "timestamp": "2026-10-02T09:30:00.000Z",
+      "type": "ACTION_REQUIRED",
+      "read": false
+    },
+    {
+      "id": "NOTIF-003",
+      "targetRole": "HEAD_HR",
+      "title": "New CV Ingested for AI Associate Professor Post",
+      "message": "Dr. Mousumi Poddar submitted application via University Career Portal.",
+      "timestamp": "2026-10-02T14:15:00.000Z",
+      "type": "INFO",
+      "read": true
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "AUD-AEDC8F6D",
+      "entityType": "EMPLOYEE_RECORD",
+      "entityId": "EMP-009",
+      "action": "EFFECTIVE_DATE_APPLIED",
+      "actorName": "System Scheduler Daemon",
+      "actorRole": "SYSTEM",
+      "timestamp": "2026-10-02T20:34:17.550Z",
+      "previousState": {
+        "designation": "Assistant Professor (Senior Scale)"
+      },
+      "newState": {
+        "designation": "Associate Professor"
+      },
+      "remarks": "Effective date reached (2026-11-01). Change executed.",
+      "ip": "::1"
+    },
+    {
+      "id": "AUD-1F28C5C0",
+      "entityType": "GROUP_D_EVALUATION",
+      "entityId": "GDE-2026-09-016",
+      "action": "AUTO_LOCK_OVERDUE",
+      "actorName": "System Scheduler Daemon",
+      "actorRole": "SYSTEM",
+      "timestamp": "2026-10-02T20:33:53.551Z",
+      "previousState": null,
+      "newState": null,
+      "remarks": "Automated SOP Enforcement: Missed submission deadline (7th) and grace period (10th). Auto-locked on 2026-10-11.",
+      "ip": "::1"
+    },
+    {
+      "id": "AUD-001",
+      "entityType": "FACULTY_ECM_APPRAISAL",
+      "entityId": "ECM-2026-009",
+      "action": "MANAGEMENT_DECISION_FINALIZED",
+      "actorName": "Prof. (Dr.) B. N. Sengupta",
+      "actorRole": "VICE_CHANCELLOR",
+      "timestamp": "2026-09-28T16:30:00.000Z",
+      "previousState": {
+        "status": "AWAITING_MGMT_DECISION"
+      },
+      "newState": {
+        "status": "COMPLETED",
+        "decisionType": "PROMOTION_AND_COMPENSATION_REVISION"
+      },
+      "remarks": "Promotion to Associate Professor & revision to ₹1,15,000 approved.",
+      "ip": "192.168.1.10"
+    },
+    {
+      "id": "AUD-002",
+      "entityType": "HR_CHANGE_REQUEST",
+      "entityId": "CR-2026-001",
+      "action": "CHANGE_REQUEST_APPROVED",
+      "actorName": "Prof. (Dr.) B. N. Sengupta",
+      "actorRole": "VICE_CHANCELLOR",
+      "timestamp": "2026-09-16T17:00:00.000Z",
+      "previousState": {
+        "status": "PENDING_MANAGEMENT"
+      },
+      "newState": {
+        "status": "APPROVED",
+        "effectiveDate": "2026-11-01"
+      },
+      "remarks": "Effective date set for 1st Nov 2026.",
+      "ip": "192.168.1.10"
+    },
+    {
+      "id": "AUD-003",
+      "entityType": "RECRUITMENT_LOI",
+      "entityId": "CAND-2026-101",
+      "action": "LOI_ACCEPTED",
+      "actorName": "Dr. Arnab Mukherjee",
+      "actorRole": "CANDIDATE",
+      "timestamp": "2026-09-18T10:20:00.000Z",
+      "previousState": {
+        "acceptanceStatus": "PENDING"
+      },
+      "newState": {
+        "acceptanceStatus": "ACCEPTED",
+        "selectionStage": "YET_TO_JOIN"
+      },
+      "remarks": "Candidate formally accepted LOI. Pre-onboarding initiated.",
+      "ip": "115.187.42.10"
+    }
+  ]
+}

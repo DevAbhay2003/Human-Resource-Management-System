@@ -1,0 +1,29 @@
+{
+  "name": "hrms",
+  "version": "1.0.0",
+  "description": "The Neotia University - Enterprise HRMS & ERP Automation System",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js",
+    "build": "cd client && npm run build",
+    "test": "node -e \"require('./server/index.js'); setTimeout(() => process.exit(0), 1000);\""
+  },
+  "keywords": [
+    "hrms",
+    "erp",
+    "university",
+    "devops",
+    "recruitment",
+    "performance-management"
+  ],
+  "author": "University IT & DevOps Engineering",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "uuid": "^14.0.2"
+  }
+}

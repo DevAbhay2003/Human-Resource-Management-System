@@ -1,0 +1,89 @@
+
+Module I – HR Change Management & Automation System
+Narrative Understanding
+Imagine a university where thousands of employee records are maintained across different departments, schools, offices and locations. Every employee has a set of service-related information—salary, designation, reporting authority, reportee, level, department or school, location, qualifications and other relevant service conditions.
+Over time, these details naturally change.
+An employee may receive a salary revision. Someone may be promoted and receive a new designation or level. An employee may move from one department to another, change location, get a new reporting authority, acquire an additional responsibility, or update a qualification. The University therefore needs a controlled way of handling these changes rather than simply editing employee information whenever somebody requests it. Module I is designed for this purpose.
+Let us imagine an employee named Mr. A.
+Mr. A is currently working in one department under a particular reporting authority. His salary, designation, level and other service information are already recorded in the University's central employee database.
+One day, the University decides that Mr. A's designation needs to change.
+At this point, the system should not simply open Mr. A's employee record and overwrite the existing designation.
+Instead, the proposed change enters the HR Change Management process.
+The request represents a change to an existing employee service condition. Module I is intended to act as the University's centralized, web-based system and single source of truth for such service-related changes. The objective is that an approved change should ultimately be reflected consistently in the connected HR records, organizational structures, reports, documents and employee files.
+Now the request reaches the first important decision point.
+Is this actually a change covered by the system?
+It could be a salary change, designation change, reportee change, reporting-authority change, level change, department/school change, location change, additional responsibility, qualification change, or another employee service-condition change corresponding to a field maintained in the database.
+Suppose it is a designation change.
+The system records the proposed change rather than immediately replacing the existing value.
+The request then enters the prescribed approval hierarchy.
+The first level is HR.
+HR processes the change according to the University's defined procedure. At this stage, the request may move forward, or it may require further action before it can proceed.
+For example, information supplied for the change may need clarification. The stakeholder requirement establishes the HR and Senior Management approval levels, but it does not specify every possible reason for returning a request, every validation rule, or every rejection condition. Those detailed rules therefore cannot simply be invented by the development team.
+If the request is ready to proceed, it moves to the Senior Management level.
+Now imagine that Senior Management approves Mr. A's designation change.
+But there is another important question:
+When should the change actually become effective?
+The approval date and the effective date do not necessarily have to be the same.
+Suppose the change is approved on one date but is specified to become effective from a later date. The system therefore needs to preserve the approved effective date and ensure that the employee's service information reflects the change from the appropriate date. Module I explicitly requires changes to be capable of becoming effective from the mentioned date.
+Now consider another situation.
+The request may be submitted today, but approval may still be pending.
+In that case, the system should not treat the proposed value as though it were already an approved employee-service change. The request remains part of the workflow until the required approval process is completed.
+This distinction is important because the system is managing a proposed change and an approved change as different stages of the same journey.
+Now suppose the change is finally approved and reaches its effective date.
+The approved information is reflected in the Central Employee Database.
+This central database is important because Module I describes it as the central database of all employees, with employee information fully reflected in the University's ERP. The Organization Chart is connected to this employee database.
+Imagine that Mr. A's change is not merely a designation change but a change in reporting authority.
+Now the consequence is organizational as well as personal.
+The employee's record changes, and the connected organizational structure may also need to reflect the new reporting relationship.
+The same principle applies if Mr. A's department, school, level, location or reportee changes.
+The system therefore has to think beyond a single employee record.
+It has to maintain consistency between the employee information and the organizational structure connected to that information.
+But there is another important question:
+What happened to Mr. A's old information?
+Module I does not intend the system to simply erase history.
+It specifically requires an audit trail and version history.
+So, when Mr. A's designation changes, the system should retain the history of the change rather than leaving no trace of what existed previously. The change journey should remain auditable.
+Imagine that six months later HR wants to understand Mr. A's service history.
+They may need to know that he previously held one designation and subsequently moved to another. The purpose of the audit trail and version history is to make such historical traceability possible.
+Now consider a different employee.
+This employee receives an additional responsibility.
+The basic story remains the same: the service condition is identified, the change is processed through the defined approval hierarchy, the effective date is respected, and the resulting information is reflected in the central employee data with its history preserved.
+Another employee may have a qualification update.
+Again, the system treats it as an employee-service change rather than an isolated piece of information that someone simply overwrites.
+Another employee may move from one location to another.
+Another may change department or school.
+Another may receive a salary revision.
+Each is a different type of change, but the underlying principle remains the same: the change must pass through a controlled process and ultimately become part of the authoritative employee record.
+Now imagine a more complicated situation.
+Suppose two different changes concerning the same employee are raised around the same time.
+One concerns salary.
+The other concerns designation.
+Module I tells us that changes require approval, effective dates, audit trail and version history. However, the stakeholder document does not specify the detailed business rule for handling two simultaneous or conflicting change requests.
+Therefore, the system developers should not invent a rule such as “the latest request automatically wins.”
+That would be a University policy decision, not a software assumption.
+The same caution applies if a proposed change conflicts with another existing change, if an approver wants clarification, or if a change needs to be cancelled or withdrawn. Module I establishes the overall controlled-change concept, but these detailed exception rules would need to be clarified with the stakeholders.
+Now imagine HR wants a report.
+Perhaps HR wants to know which employee changes are currently pending.
+Another report might be required to show approved changes.
+Another might show changes becoming effective during a particular period.
+The exact report formats, however, are to be provided by HR. Module I says that HR will provide the list and formats, and that reports may be added or deleted as requirements evolve. The system is expected to provide real-time reporting.
+So the system should not be designed around the assumption that today's report list will remain permanently fixed.
+The reporting requirement itself is configurable according to the University's needs.
+Now step back and look at Mr. A's complete journey.
+Initially, his existing employee information is stored centrally.
+A service-related change is identified.
+The change is submitted into the HR change-management process.
+It passes through HR and then Senior Management, according to the defined approval hierarchy.
+If it is approved, the system considers the specified effective date.
+When the change becomes effective, the employee's central information is updated.
+If the change affects organizational relationships, the connected Organization Chart reflects the relevant change.
+At the same time, the system retains the audit trail and version history, so that the journey of the change is not lost.
+Finally, the updated information becomes available for the University's required reports.
+And if the request is not yet approved, or requires clarification, the system must preserve its current workflow state rather than pretending that the change has already happened.
+That is the story of Module I.
+It is not simply a screen where HR edits employee information.
+It is a controlled journey for employee-service changes:
+Existing Employee Information → Change Request → HR Level → Senior Management Level → Approval → Effective Date → Central Employee Database → Connected Organization Structure/Records → Audit Trail & Version History → Real-Time Reporting.
+The central idea is simple:
+The University wants one controlled place where employee-service changes are requested, processed, approved, made effective, historically recorded, and reflected consistently wherever that employee information is used.
+

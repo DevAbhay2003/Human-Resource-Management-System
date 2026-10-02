@@ -1,0 +1,132 @@
+
+REQUIREMENT BRIEF — MODULE III
+PERFORMANCE MANAGEMENT (GROUP-D) AUTOMATION SYSTEM
+Background & Objective
+The University proposes to automate the existing SOP for Appraisal of Group-D / Band I members within the HR Change Management & Automation System (Module I), so that performance evaluation, monthly reporting, annual review and compensation-decision workflows are digitized, standardized and auditable. The system will remove manual, paper/email-based routing of evaluation forms and ensure every evaluation cycle is tracked, time-stamped and linked to the Central Employee Database.
+Objective: to establish a system-driven, transparent and consistent process for evaluating Group-D members, covering documentation of performance (positive and negative), job description and responsibility changes, monthly and annual reporting, and downstream HR decisions.
+Structure:
+There will be a digital Evaluation Form Repository, linked to the Central Employee Database (Module I), containing a standardized Evaluation Form per Group-D role.
+The Evaluation Form shall be configurable by the HR Team and shall capture role-specific Key Performance Indicators (KPIs) and competencies for the Group-D member's role.
+The system shall allow the HR Team to update / version the form; each version shall be logged with an audit trail.
+Monthly Evaluation Workflow
+The system shall route a monthly Evaluation Form to the Head of Department (HOD) for each Group-D member reporting into their department (department / reporting hierarchy pulled from the Central Employee Database).
+The HOD shall complete and submit the form online; submission shall require sign-off / approval from the Vice President – Administration before it is treated as final.
+The system shall enforce a submission due date of the 7th of every month, with an automated grace period of three (3) additional days (up to the 10th).
+The system shall send automated reminders to the HOD before the due date and during the grace period.
+If the form is not submitted within the grace period, the system shall auto-lock submission for that month and flag the evaluation as "Not Submitted" for that Group-D member, with the record and reason visible to HR.
+HR Collation & Monthly Report Generation
+The system shall automatically collate all submitted and approved monthly Evaluation Forms into a Monthly Performance Report for each Group-D member.
+The Monthly Report shall be system-generated in the pre-defined Monthly Report Template and made available to HR without manual compilation.
+Annual Report Generation
+The system shall automatically trigger generation of an Annual Report for each Group-D member upon completion of one year of employment, and upon completion of every subsequent year of employment, based on the Date of Joining held in the Central Employee Database.
+The Annual Report shall collate all Monthly Reports for the year and compute a weighted average for each performance parameter, as per weights configured by HR / Management.
+The Annual Report shall be routed to Management for review.
+
+Compensation Review Workflow
+Based on the Annual Report, the system shall support a Management decision / review on compensation change, applying pre-defined compensation slabs configured by Management against the weighted performance score.
+The system shall check the member's probation status (from the Central Employee Database) and shall not activate the compensation-change workflow unless the probation period is marked as mandatorily completed.
+Decision Support & Employee File Integration
+Every Evaluation Form, Monthly Report and Annual Report shall be automatically stored against the respective Group-D member's digital employee file.
+The evaluation history shall be available as a system reference for related HR decisions — rewards / recognition, change of compensation package, departmental change, or reprimand — with the relevant records linked at the point of decision.
+Approval Hierarchy
+HOD/Reporting Authority Level — completion and submission of the monthly Evaluation Form.
+Vice President – Administration Level — approval of the monthly Evaluation Form.
+Management Level — review of the Annual Report and decision on compensation change.
+This should have a database change methodology consistent with Module I, so that any evaluation, approval or report status is time-stamped, with a complete audit trail and version history.
+Reports:
+HR shall provide the list and format of the various reports required to be generated (including, at minimum, the Monthly Performance Report and Annual Report templates referenced in the SOP).
+There may be addition / deletion to these reports over time. Provision for generation of real-time reports should be there.
+Enclosures:
+Evaluation Form
+Monthly and Annual Report Template
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REQUIREMENT BRIEF — MODULE III
+PERFORMANCE MANAGEMENT (KRA/KPI & APPRAISAL) AUTOMATION SYSTEM
+1. Background & Objective
+The University proposes a centralized, web-based Performance Management System, integrated with the HR Change Management & Automation System (Module I), to automate the goal-setting, quarterly review and annual appraisal cycle for every employee from date of joining. The system will replace the current manual, document- and email-based submission process with system-driven timelines, reminders and escalations, and will feed approved appraisal outcomes directly into Module I as change requirements (e.g. salary, designation, level).
+The objective is to ensure no goal-setting or review deadline is missed, to give HR and Management real-time visibility of pending/overdue submissions across all quarters, and to close the loop between performance outcomes and the employee's service-condition changes without duplicate data entry.
+2. Structure
+The performance cycle, as evaluated from the attached flowchart (Sheet 2), comprises three sequential stages, each with a defined trigger, actor, timeline and approval point:
+Stage 1: Onboarding & Goal Setting
+
+Trigger: New employee joining — system-generated intimation to employee & Reporting Authority to set up KRAs/KPIs.
+Goal setting (KRAs/KPIs) to be completed within 30 days of Date of Joining (DOJ).
+Verification by HR and Management before goals are locked.
+Stage 2: Quarterly Review Cycle (Q1–Q4)
+
+System intimation at 90 days from DOJ to submit 1st quarter review; auto-reminder after 20 days if pending.
+Employee submits with supporting documents within 15 days of completing the 90-day mark.
+Reporting Authority verifies submission; forwarded to HR within 7 days.
+HR reviews and records change request/recommendation/observation.
+Submission routed to Management for review; Management records comment/recommendation.
+Cycle repeats for the next 3 quarters, each following the same submit → verify → HR review → Management review flow.
+Stage 3: Annual Appraisal & Integration with Module I
+
+After completion of 4 quarters, HR triggers the appraisal request to Management.
+Management records final appraisal recommendation.
+HR initializes the resulting change requirement (e.g. increment, designation, level) directly in the Module I – HR Change Management System, closing the loop without re-entry.
+Each submission retains a timestamped audit trail and version history, with escalation/turnaround-time (TAT) tracking at every stage (30-day goal-setting SLA, 90-day + 15-day quarterly submission SLA, 20-day reminder trigger).
+3. Reports (as per need)
+HR shall finalize the exact list and format of reports; provision must exist for real-time report generation and for reports to be added/removed as the process evolves. Indicative reports based on the mapped workflow:
+New-joiner KRA/KPI setup status report (pending / completed vs. 30-day SLA).
+HR + Management verification TAT report.
+Quarter-wise submission status report (submitted / pending / overdue) — per employee, per department.
+REQUIREMENT BRIEF — MODULE III
+PERFORMANCE MANAGEMENT (FACULTY – ECM) AUTOMATION SYSTEM
+Background & Objective
+The University proposes to automate the existing SOP for the Faculty Annual Performance Appraisal process (Evaluation Committee Meeting / ECM route) within the HR Change Management & Automation System (Module I), so that eligibility identification, self-appraisal, verification, ECM scheduling, evaluation compilation, and compensation-decision workflows for Faculty are digitized, standardized and auditable.
+Objective: to establish a system-driven, transparent and consistent annual appraisal process for Faculty members who have completed their probation period and at least 12 months of employment, replacing manual/paper-based routing between the Registrar's Office, HR Department, concerned departments, the Evaluation Committee and Management.
+Structure:
+Eligibility Identification
+The system shall auto-identify Faculty members who have completed their probation period and at least 12 months of employment since their last appraisal, using data (DOJ, probation status) from the Central Employee Database (Module I).
+The system shall generate the eligible Faculty list and route it from HR to the Office of the Registrar by the 10th of every month, with an automated reminder if the routing is delayed.
+Self-Appraisal Workflow
+The system shall auto-issue the Self-Appraisal Form to each eligible Faculty member.
+The Faculty member shall submit the completed Self-Appraisal Form along with supporting documents within seven (7) working days of receipt; the system shall track this timeline and send reminders as the deadline approaches.
+Verification Routing
+The system shall route the submitted Self-Appraisal Form and supporting documents to the concerned departments / stakeholders (School Dean, R&D Cell, Placement Cell, HR Department, etc.) for verification.
+Where a discrepancy is identified, the system shall return the form to the concerned Faculty member for correction / updated submission, and shall track the resubmission until verification is complete.
+Evaluation Committee Meeting (ECM) Scheduling
+The system shall enable the Office of the Registrar to schedule the monthly ECM for all eligible, verified Faculty members.
+The system shall notify each concerned Faculty member of their ECM date / schedule.
+ECM Score Compilation
+The system shall provide a digital ECM Score Sheet for the Evaluation Committee to record scores at the meeting, submitted directly to the HR Department.
+The system shall compile an evaluation matrix based on the configured TNU Protocol parameters together with the Faculty member's previous increment details held in the system.
+The compiled evaluation matrix shall be routed by the system to Management, through the HR Representative, for recommendation on compensation change.
+
+
+
+Compensation Implementation
+The system shall capture Management's recommendation on compensation and shall track its implementation in the next applicable salary cycle / due month.
+The system shall auto-generate the corresponding letter to the concerned Faculty member and route it to HR / Payroll for issuance.
+Decision Support & Personal File Integration
+The ECM result shall form a system-linked basis for: confirmation of employment; extension of probation (where the minimum prescribed score is not achieved); rewards and recognition; compensation revision; additional responsibilities; Performance Improvement Plan (PIP); or reprimand, as applicable.
+The appraisal / ECM result and related documents shall be automatically stored against the concerned Faculty member's digital personal file.
+Process / Approval Hierarchy
+HR Representative Level — eligibility identification, list generation, coordination with the Registrar's Office.
+Office of the Registrar Level — Self-Appraisal Form issuance and collection, verification routing, ECM scheduling.
+Concerned Departments Level (School Dean, R&D Cell, Placement Cell, HR Department, etc.) — verification of submitted documents.
+Evaluation Committee Level — evaluation and scoring at the ECM.
+HR Department Level — compilation of the ECM evaluation matrix.
+Management Level — recommendation and decision on compensation change.
+This should have a database change methodology consistent with Module I, so that every appraisal cycle, submission, verification, ECM score and Management decision is time-stamped, with a complete audit trail and version history.
+Reports:
+HR shall provide the list and format of the various reports required to be generated (including, at minimum, the eligibility list, ECM Score Sheet compilation, and the compiled evaluation matrix per appraisal cycle).
+There may be addition / deletion to these reports over time. Provision for generation of real-time reports should be there.
+Enclosures:
+Self-Appraisal Form
+ECM Score Sheet
+Evaluation Matrix Template 

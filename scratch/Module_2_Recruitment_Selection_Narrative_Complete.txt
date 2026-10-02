@@ -1,0 +1,62 @@
+
+Module 2 – Recruitment & Selection Automation System
+Narrative Understanding
+Imagine the University is approaching a new academic year. Several months before the new semester begins, the Recruitment & Selection Automation System starts working in the background.
+The first question is not yet, “Who should we hire?” The first question is, “How many people do we actually need, for which positions, and why?”
+For an academic requirement, the Associate Dean (Academics) initiates the manpower-planning process and the Deans assess workload, teaching requirements, replacement needs and expansion requirements. For a non-academic requirement, HR communicates with the concerned Department Head, who assesses the operational requirement. The system is expected to start these activities sufficiently in advance and track the prescribed deadlines.
+Suppose the Dean identifies a requirement for two faculty members. The Dean prepares the finalized requirement along with the teaching load and submits it within the prescribed period. The system records the submission and watches the timeline.
+But the process does not necessarily move forward immediately.
+The requirement first goes for vetting. For Faculty and Lab Technician positions, it goes to the Associate Dean; for Non-Faculty positions, it goes to the Head HR. The person reviewing the requirement may need clarification or additional information. In that situation, the requirement does not simply disappear or get rejected automatically. It can move back for clarification, and the system needs to keep track of this stage and its timeline.
+Once the requirement is consolidated and recommended, it moves to the Pro-Chancellor for approval. The system tracks the prescribed turnaround time and sends notifications. If approval is obtained, the recruitment process can proceed. If it is still pending, the position remains a pending requirement rather than being treated as an approved vacancy.
+Now imagine that the requirement is approved.
+For a Faculty or Lab Technician position, the Dean raises the MRF to HR. For a Non-Faculty position, the MRF exists at the requisition stage. HR then initiates recruitment within the prescribed period. The system also calculates the expected completion target based on the applicable recruitment timeline.
+There is another possible situation.
+Suppose an employee suddenly resigns and the University needs a replacement urgently. The system must not force this requirement to wait for the normal annual manpower-planning cycle. The requirement can be raised as an urgent/replacement MRF. The replacement process begins from the relevant resignation-acceptance event, and the system tracks the subsequent stages—from MRF and approval through sourcing, shortlisting and selection.
+Once a position is approved, it becomes part of the Open Positions Tracker. The University now has a clear distinction between a manpower requirement that is being considered and an approved position that is actually open for recruitment. Approved positions are recorded and maintained in the tracker.
+Now recruitment moves outside the approval stage and into sourcing.
+HR creates advertisements through the configured channels—such as print media, social media and the University website. The advertisement is connected to the approved MRF and categorized according to the position type.
+Applications begin arriving.
+Some may come through designated email IDs. Others may come through Facebook, Instagram, LinkedIn, the University website, newspapers, internal references or Internshala for internships. Instead of allowing these applications to remain scattered across different sources, the system brings them into a central CV Database.
+At this point, the system has another important decision to make:
+“Which applications should proceed to shortlisting?”
+The requirement says applications should be automatically segregated/classified and shortlisted against criteria such as educational qualification and experience, including applicable UGC norms.
+But a candidate who does not immediately satisfy the configured criteria cannot simply be assumed to be rejected by the system unless that rule has been defined. The stakeholder document specifies the qualification/experience-based shortlisting requirement, but it does not specify every exception, scoring formula or ranking algorithm. Those details therefore remain something the University would need to define.
+Suppose a candidate passes the initial shortlisting criteria.
+The application moves to the recruiter-calling stage. The recruiter records the call-related information using the prescribed RCS format, and the information is routed to the Head HR.
+If the candidate does not proceed, the system should retain the appropriate stage/status rather than simply deleting the candidate from the database. If the candidate proceeds, the application moves forward.
+Before the interview stage, the shortlisted candidates' information is routed to Management for the required approval.
+Now the recruitment story separates into two different paths.
+The Academic path
+Imagine the candidate is applying for a faculty position.
+The University follows its Selection Committee process. The system prepares digital invitations and provides the Committee with the candidate's resume and evaluation sheet. An external subject expert is included where required. The interview may be conducted online, except in cases where an offline interview is considered necessary.
+Each evaluator records the required assessment. The system then compiles the feedback into an evaluation matrix.
+But the Selection Committee's evaluation is not necessarily the final employment decision.
+The compiled evaluation and HR recommendation are routed to Management. Management makes the final recommendation and provides cost approval. Only then does the system generate the Letter of Intent (LOI).
+Suppose the candidate accepts the LOI.
+The candidate now becomes “Yet to Join” in the internal HR database.
+The candidate is not yet treated as a joined employee. The system therefore has to preserve this intermediate state.
+The Non-Academic path
+Now consider a non-faculty candidate.
+The selection route is different. The candidate goes through three rounds:
+Technical → HR → Management.
+The technical assessment is conducted by the Department Head or subject expert. HR conducts the HR round, and Management conducts the final round. The digital evaluation sheet captures factors such as job knowledge, communication skills and attitude.
+Again, Management makes the final recommendation and cost approval, followed by LOI generation.
+If the candidate accepts, the candidate moves to Yet to Join.
+Thus, although Academic and Non-Academic recruitment share the same broad recruitment engine, they do not follow exactly the same decision path. The stakeholder requirement explicitly treats them as distinct configurable workflows sharing a common sourcing/CV database engine.
+Now another important part of the story begins.
+A candidate has accepted the LOI, but has not joined yet.
+The system generates Yet-to-Join reports for the concerned HODs, Deans and administrative/system teams so that pre-onboarding activities can begin.
+The candidate may still have several milestones ahead—offer acceptance, notice period, verification, joining and onboarding. The system needs to track these milestones because accepting an LOI does not mean the recruitment lifecycle is complete.
+And there can be exceptions here too.
+A candidate may accept the offer but have a notice period. Another may be awaiting verification. Another may not join as expected. The stakeholder requirement specifically identifies these milestones for tracking, but it does not prescribe every possible exception outcome or the exact rules for handling each one. Those rules would need to be finalized with HR rather than invented by the developers.
+Throughout this entire story, the system is keeping another story in parallel:
+“Who did what, and when?”
+The manpower requirement, approval, sourcing, shortlisting and selection stages must be timestamped, with audit trail and version history maintained. This applies to both Academic and Non-Academic recruitment.
+The system is therefore not merely storing candidates.
+It is remembering the journey of every position and every candidate through the recruitment process.
+Management also needs visibility. HR can obtain weekly progress information about open and pending positions, sourcing and CV activity, shortlisting/interview progress, and Yet-to-Join candidates. The required report formats are to be provided by HR, and the system is expected to support real-time reporting.
+So, if we tell the entire story of Module II in one continuous sequence, it is this:
+The University identifies a manpower need → validates the requirement → obtains the prescribed approvals → creates/records the approved position → raises the appropriate MRF → advertises the position → collects applications into a central CV database → classifies and shortlists candidates → records recruiter interactions → obtains the required approval for interview → follows the appropriate Academic or Non-Academic selection workflow → evaluates candidates → obtains Management's final recommendation and cost approval → generates the LOI → tracks acceptance and pre-joining milestones → maintains the candidate as Yet to Join → and continuously records timelines, status, audit trail and reports.
+The important idea is that Module II is not simply a recruitment website.
+It is a controlled workflow in which a requirement must become an approved position, an approved position must become a recruitment process, applications must move through defined decision points, Academic and Non-Academic candidates must follow their respective workflows, and the system must preserve the history and current status of the recruitment journey.
+
