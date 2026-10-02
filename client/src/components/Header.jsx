@@ -11,7 +11,9 @@ import {
   Users, 
   Briefcase, 
   Award, 
-  Globe 
+  Globe,
+  Code2,
+  Sparkles
 } from 'lucide-react';
 
 export default function Header({ 
@@ -48,27 +50,44 @@ export default function Header({
   return (
     <header className="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-xs">
       {/* Top Banner with University Identity & System Controls */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-wrap items-center justify-between gap-4">
-        {/* University Brand */}
-        <div className="flex items-center space-x-3">
-          <div className="w-11 h-11 rounded-lg bg-blue-900 text-white flex items-center justify-center font-bold shadow-sm">
-            <Building2 className="w-6 h-6 text-amber-400" />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex flex-wrap items-center justify-between gap-4">
+        {/* University Brand with Official TNU Logo */}
+        <div className="flex items-center space-x-3.5">
+          <div className="h-12 bg-white rounded-lg p-1 border border-slate-200 shadow-xs flex items-center justify-center shrink-0">
+            <img 
+              src="/assets/tnu-logo.jpg" 
+              alt="The Neotia University Logo" 
+              className="h-10 w-auto object-contain"
+              onError={(e) => {
+                e.target.onerror = null; 
+                e.target.style.display = 'none';
+              }}
+            />
           </div>
           <div>
-            <div className="flex items-center space-x-2">
-              <span className="text-lg font-bold tracking-tight text-slate-900">THE NEOTIA UNIVERSITY</span>
-              <span className="px-2 py-0.5 text-xs font-semibold uppercase tracking-wider bg-blue-100 text-blue-800 rounded-full">
-                Enterprise HRMS
+            <div className="flex items-center space-x-2 flex-wrap">
+              <span className="text-lg font-black tracking-tight text-[#003366]">THE NEOTIA UNIVERSITY</span>
+              <span className="px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-red-100 text-red-800 rounded-full border border-red-200">
+                UGC Sec. 2(f)
+              </span>
+              <span className="hidden md:inline text-[11px] font-serif italic text-slate-500">
+                "ज्ञानम् आत्म प्रदीपाय"
               </span>
             </div>
             <p className="text-xs text-slate-500 font-medium">
-              HR Change Management, Recruitment & Performance Automation SOP System
+              Enterprise HRMS, SOP Automation & ERP Governance Portal
             </p>
           </div>
         </div>
 
-        {/* Action Controls: Simulated Clock, Persona, Audit, Notifications */}
-        <div className="flex items-center space-x-2 sm:space-x-3">
+        {/* Action Controls: Developer Signature, Simulated Clock, Persona, Audit, Notifications */}
+        <div className="flex items-center space-x-2 sm:space-x-3 flex-wrap">
+          {/* Developer Signature Badge by Abhay */}
+          <div className="flex items-center space-x-1.5 px-2.5 py-1 bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-full text-blue-900 text-xs font-bold shadow-2xs">
+            <Sparkles className="w-3.5 h-3.5 text-blue-600 animate-pulse" />
+            <span>Dev: <strong className="text-indigo-700 font-black">Abhay</strong></span>
+          </div>
+
           {/* Time Machine Trigger Button */}
           <button
             onClick={onOpenTimeMachine}
@@ -109,7 +128,7 @@ export default function Header({
               onClick={() => setPersonaDropdownOpen(!personaDropdownOpen)}
               className="flex items-center space-x-2 px-3 py-1.5 bg-blue-50 hover:bg-blue-100 border border-blue-200 rounded-md text-blue-900 text-xs font-medium transition"
             >
-              <UserCheck className="w-4 h-4 text-blue-700" />
+              <UserCheck className="w-4 h-4 text-[#003366]" />
               <div className="text-left hidden sm:block">
                 <div className="font-bold leading-tight truncate max-w-[130px]">{currentPersona.name}</div>
                 <div className="text-[10px] text-blue-600 leading-tight truncate max-w-[130px]">{currentPersona.role}</div>
@@ -145,15 +164,15 @@ export default function Header({
         </div>
       </div>
 
-      {/* Main Navigation Tabs */}
-      <div className="bg-slate-900 text-white">
+      {/* Main Navigation Tabs with TNU Brand Theme Colors */}
+      <div className="bg-[#002244] text-white border-t border-red-700/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex space-x-1 overflow-x-auto text-xs font-semibold py-1">
           <button
             onClick={() => setActiveTab('module1')}
             className={`flex items-center space-x-2 px-4 py-2.5 rounded-md transition whitespace-nowrap ${
               activeTab === 'module1'
-                ? 'bg-blue-600 text-white shadow-xs'
-                : 'text-slate-300 hover:text-white hover:bg-slate-800'
+                ? 'bg-[#c62828] text-white shadow-xs font-bold'
+                : 'text-slate-300 hover:text-white hover:bg-white/10'
             }`}
           >
             <Users className="w-4 h-4 text-blue-300" />
@@ -164,8 +183,8 @@ export default function Header({
             onClick={() => setActiveTab('module2')}
             className={`flex items-center space-x-2 px-4 py-2.5 rounded-md transition whitespace-nowrap ${
               activeTab === 'module2'
-                ? 'bg-blue-600 text-white shadow-xs'
-                : 'text-slate-300 hover:text-white hover:bg-slate-800'
+                ? 'bg-[#c62828] text-white shadow-xs font-bold'
+                : 'text-slate-300 hover:text-white hover:bg-white/10'
             }`}
           >
             <Briefcase className="w-4 h-4 text-emerald-300" />
@@ -176,8 +195,8 @@ export default function Header({
             onClick={() => setActiveTab('module3')}
             className={`flex items-center space-x-2 px-4 py-2.5 rounded-md transition whitespace-nowrap ${
               activeTab === 'module3'
-                ? 'bg-blue-600 text-white shadow-xs'
-                : 'text-slate-300 hover:text-white hover:bg-slate-800'
+                ? 'bg-[#c62828] text-white shadow-xs font-bold'
+                : 'text-slate-300 hover:text-white hover:bg-white/10'
             }`}
           >
             <Award className="w-4 h-4 text-amber-300" />
@@ -188,8 +207,8 @@ export default function Header({
             onClick={() => setActiveTab('career')}
             className={`flex items-center space-x-2 px-4 py-2.5 rounded-md transition whitespace-nowrap ${
               activeTab === 'career'
-                ? 'bg-blue-600 text-white shadow-xs'
-                : 'text-slate-300 hover:text-white hover:bg-slate-800'
+                ? 'bg-[#c62828] text-white shadow-xs font-bold'
+                : 'text-slate-300 hover:text-white hover:bg-white/10'
             }`}
           >
             <Globe className="w-4 h-4 text-sky-300" />
@@ -200,8 +219,8 @@ export default function Header({
             onClick={() => setActiveTab('devops')}
             className={`flex items-center space-x-2 px-4 py-2.5 rounded-md transition whitespace-nowrap ${
               activeTab === 'devops'
-                ? 'bg-blue-600 text-white shadow-xs'
-                : 'text-slate-300 hover:text-white hover:bg-slate-800'
+                ? 'bg-[#c62828] text-white shadow-xs font-bold'
+                : 'text-slate-300 hover:text-white hover:bg-white/10'
             }`}
           >
             <Terminal className="w-4 h-4 text-purple-300" />

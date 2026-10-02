@@ -12,7 +12,8 @@ import {
   Sparkles,
   ChevronRight,
   ShieldCheck,
-  X
+  X,
+  Code2
 } from 'lucide-react';
 import { api } from '../services/api';
 
@@ -69,31 +70,48 @@ export default function CareerPortal() {
 
   return (
     <div className="space-y-6">
-      {/* Career Hero Banner */}
-      <div className="bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 text-white rounded-2xl p-8 shadow-lg border border-blue-800 text-center relative overflow-hidden">
-        <div className="max-w-3xl mx-auto space-y-3 relative z-10">
-          <div className="inline-flex items-center space-x-2 px-3 py-1 bg-amber-400/20 border border-amber-400/40 text-amber-300 rounded-full text-xs font-bold uppercase tracking-wider">
-            <Building2 className="w-3.5 h-3.5" />
-            <span>Join Our Faculty & Staff</span>
+      {/* Career Hero Banner with the Real TNU Campus Grand Entrance Photo */}
+      <div 
+        className="relative rounded-2xl p-8 sm:p-12 shadow-xl border border-slate-700 text-center overflow-hidden bg-cover bg-center min-h-[300px] flex items-center justify-center"
+        style={{
+          backgroundImage: `linear-gradient(to right, rgba(0, 31, 63, 0.88), rgba(15, 23, 42, 0.90)), url('/assets/tnu-campus-banner.webp')`
+        }}
+      >
+        <div className="max-w-3xl mx-auto space-y-3 relative z-10 text-white">
+          <div className="inline-flex items-center space-x-2 px-3.5 py-1 bg-white/10 backdrop-blur-md border border-white/20 text-amber-300 rounded-full text-xs font-bold uppercase tracking-wider">
+            <img src="/assets/tnu-logo.jpg" alt="TNU" className="h-4 w-auto rounded-xs inline bg-white p-0.5" />
+            <span>The Neotia University Career Opportunities</span>
           </div>
-          <h1 className="text-2xl sm:text-4xl font-black tracking-tight text-white">
-            Careers at The Neotia University
+
+          <h1 className="text-2xl sm:text-4xl font-black tracking-tight text-white drop-shadow-md">
+            Shape the Future of Higher Education
           </h1>
-          <p className="text-xs sm:text-sm text-blue-200/90 leading-relaxed">
-            Empower the next generation of engineers, researchers, scholars, and innovators. Explore sanctioned academic and non-academic openings with transparent UGC-aligned governance.
+          <p className="text-xs sm:text-sm text-slate-200 max-w-2xl mx-auto leading-relaxed">
+            Join a vibrant academic ecosystem at our sprawling green campus in Diamond Harbour. Explore sanctioned academic, research, administrative, and technical positions with transparent UGC-aligned governance.
           </p>
+
+          <div className="pt-2 flex items-center justify-center space-x-4 text-xs text-slate-300">
+            <span className="flex items-center space-x-1">
+              <MapPin className="w-3.5 h-3.5 text-red-400" />
+              <span>Sarisa, Diamond Harbour Road, WB</span>
+            </span>
+            <span>•</span>
+            <span className="text-emerald-300 font-semibold">UGC Approved 2(f)</span>
+            <span>•</span>
+            <span className="text-blue-200">Portal Dev: <strong>Abhay</strong></span>
+          </div>
         </div>
       </div>
 
       {/* Success Notification Banner */}
       {submittedSuccess && (
-        <div className="p-4 bg-emerald-50 border border-emerald-300 rounded-xl flex items-start justify-between">
+        <div className="p-4 bg-emerald-50 border border-emerald-300 rounded-xl flex items-start justify-between shadow-2xs">
           <div className="flex items-start space-x-3">
-            <CheckCircle2 className="w-5 h-5 text-emerald-600 mt-0.5" />
+            <CheckCircle2 className="w-5 h-5 text-emerald-600 mt-0.5 shrink-0" />
             <div className="text-xs">
               <span className="font-bold text-emerald-900 block text-sm">Application Successfully Submitted!</span>
               <p className="text-emerald-800 mt-0.5">
-                Reference Code: <strong className="font-mono">{submittedSuccess.candidateCode}</strong> • Ingested into Central CV Database.
+                Statutory Reference Code: <strong className="font-mono">{submittedSuccess.candidateCode}</strong> • Ingested into Central CV Database.
               </p>
               <p className="text-emerald-700 text-[11px] mt-1">
                 Automated UGC Qualification Screening Score: <strong className="font-bold">{submittedSuccess.shortlistingScore}/100</strong> ({submittedSuccess.shortlistingStatus}).
@@ -120,8 +138,8 @@ export default function CareerPortal() {
                 }`}>
                   {job.positionType}
                 </span>
-                <span className="text-[11px] font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">
-                  {job.vacanciesCount} Post(s)
+                <span className="text-[11px] font-bold text-[#c62828] bg-red-50 px-2 py-0.5 rounded border border-red-100">
+                  {job.vacanciesCount} Post(s) Sanctioned
                 </span>
               </div>
 
@@ -142,7 +160,7 @@ export default function CareerPortal() {
                 {job.teachingLoadHoursPerWeek > 0 && (
                   <div>Teaching Load: <strong className="text-slate-700">{job.teachingLoadHoursPerWeek} hrs/week</strong></div>
                 )}
-                <div>Sanctioned Range: <strong className="text-slate-700">{job.proposedCtcRange}</strong></div>
+                <div>Sanctioned Band: <strong className="text-slate-700">{job.proposedCtcRange}</strong></div>
               </div>
             </div>
 
@@ -152,7 +170,7 @@ export default function CareerPortal() {
                   setSelectedJob(job);
                   setShowApplyModal(true);
                 }}
-                className="w-full py-2 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold rounded-lg shadow-2xs transition flex items-center justify-center space-x-1.5"
+                className="w-full py-2 bg-[#003366] hover:bg-[#002244] text-white text-xs font-bold rounded-lg shadow-2xs transition flex items-center justify-center space-x-1.5"
               >
                 <span>Apply for Position</span>
                 <ChevronRight className="w-4 h-4" />
@@ -166,19 +184,19 @@ export default function CareerPortal() {
       {showApplyModal && selectedJob && (
         <div className="fixed inset-0 z-50 overflow-y-auto bg-slate-900/60 backdrop-blur-xs flex items-center justify-center p-4">
           <div className="bg-white rounded-xl shadow-2xl max-w-lg w-full border border-slate-200 overflow-hidden">
-            <div className="px-6 py-4 bg-blue-900 text-white flex items-center justify-between">
+            <div className="px-6 py-4 bg-[#002244] text-white flex items-center justify-between border-b-2 border-[#c62828]">
               <div>
-                <h2 className="text-base font-bold">Apply for Position</h2>
-                <p className="text-xs text-blue-200">{selectedJob.positionTitle}</p>
+                <h2 className="text-base font-bold">University Job Application</h2>
+                <p className="text-xs text-slate-300">{selectedJob.positionTitle}</p>
               </div>
-              <button onClick={() => setShowApplyModal(false)} className="p-1 rounded-md text-blue-200 hover:text-white transition">
+              <button onClick={() => setShowApplyModal(false)} className="p-1 rounded-md text-slate-300 hover:text-white transition">
                 <X className="w-5 h-5" />
               </button>
             </div>
 
             <form onSubmit={handleApply} className="p-6 space-y-4 text-xs">
               <div>
-                <label className="block text-slate-700 font-bold mb-1">Full Name</label>
+                <label className="block text-slate-700 font-bold mb-1">Candidate Full Name</label>
                 <input
                   type="text"
                   required
@@ -289,7 +307,7 @@ export default function CareerPortal() {
                 </button>
                 <button
                   type="submit"
-                  className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-md shadow-xs transition"
+                  className="px-4 py-2 bg-[#003366] hover:bg-[#002244] text-white font-bold rounded-md shadow-xs transition"
                 >
                   Submit Application
                 </button>

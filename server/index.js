@@ -1,3 +1,14 @@
+/**
+ * =========================================================================================
+ * THE NEOTIA UNIVERSITY (TNU) — ENTERPRISE HRMS & ERP AUTOMATION SYSTEM
+ * 
+ * Lead Developer & System Architect: ABHAY
+ * Campus: Sarisa, D.H. Road, 24 Parganas (South), West Bengal 743368
+ * Modules: Module I (HR Change Management), Module II (Recruitment), Module III (Appraisal)
+ * License / Attribution: Designed and Engineered by Abhay for Official College Web Deployment
+ * =========================================================================================
+ */
+
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
@@ -1809,9 +1820,10 @@ app.use((req, res) => {
 
 app.listen(PORT, () => {
   console.log(`=======================================================`);
-  console.log(`🚀 TNU HRMS Enterprise Automation System is running!`);
-  console.log(`📡 Server listening on http://localhost:${PORT}`);
-  console.log(`📊 Health Endpoint: http://localhost:${PORT}/api/health`);
-  console.log(`📈 Metrics Endpoint: http://localhost:${PORT}/api/metrics`);
+  console.log(`🏛️ THE NEOTIA UNIVERSITY (TNU) — ENTERPRISE HRMS & ERP`);
+  console.log(`💻 Lead Developer & Architect: ABHAY`);
+  console.log(`🚀 System is active on http://localhost:${PORT}`);
+  console.log(`📊 Health Probe: http://localhost:${PORT}/api/health`);
+  console.log(`📈 Metrics Probe: http://localhost:${PORT}/api/metrics`);
   console.log(`=======================================================`);
 });

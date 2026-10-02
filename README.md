@@ -159,5 +159,9 @@ To demonstrate the automated scheduled SOP logic (such as the **7th submission d
 
 ## 📄 License & Institutional Attribution
 * **Institution**: The Neotia University (TNU), West Bengal, India
-* **System**: HR & Enterprise Governance Automation System
-* **Engineered for**: Official University Production Web Deployment
+* **Motto**: ज्ञानम् आत्म प्रदीपाय (Knowledge for Self-Enlightenment)
+* **Campus**: Sarisa, D.H. Road, 24 Parganas (South), West Bengal 743368
+* **Statutory Status**: Established under WB State Act XXIII of 2014 • Approved under Sec. 2(f) of UGC Act 1956
+* **System**: Enterprise HRMS & ERP Automation System (Modules I, II & III)
+* **Lead Developer & System Architect**: **Abhay**
+* **Engineered for**: Official College Web Production Rollout

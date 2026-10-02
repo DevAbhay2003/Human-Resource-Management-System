@@ -13,7 +13,9 @@ import {
   ExternalLink,
   Code2,
   HardDrive,
-  RefreshCw
+  RefreshCw,
+  Sparkles,
+  Award
 } from 'lucide-react';
 import { api } from '../services/api';
 
@@ -46,6 +48,7 @@ export default function DevOpsDashboard() {
   const dockerfileContent = `
 # =========================================================================
 # The Neotia University - Enterprise HRMS Production Multi-Stage Dockerfile
+# Lead Developer & Architect: Abhay
 # =========================================================================
 
 # Stage 1: Build Frontend Assets
@@ -82,6 +85,8 @@ CMD ["node", "server/index.js"]
 `.trim();
 
   const dockerComposeContent = `
+# The Neotia University HRMS - Docker Compose
+# Architecture & Configuration by Abhay
 version: '3.8'
 
 services:
@@ -131,6 +136,8 @@ networks:
 `.trim();
 
   const nginxConfContent = `
+# Nginx Reverse-Proxy Configuration for The Neotia University
+# Configured by Abhay (Lead DevOps & Fullstack Engineer)
 worker_processes auto;
 events { worker_connections 1024; }
 
@@ -161,7 +168,7 @@ http {
         ssl_protocols TLSv1.2 TLSv1.3;
         ssl_ciphers HIGH:!aNULL:!MD5;
 
-        # Institutional Security Headers
+        # Statutory Institutional Security Headers
         add_header X-Frame-Options "SAMEORIGIN" always;
         add_header X-XSS-Protection "1; mode=block" always;
         add_header X-Content-Type-Options "nosniff" always;
@@ -189,6 +196,8 @@ http {
 `.trim();
 
   const cicdYamlContent = `
+# TNU HRMS Automated CI/CD Workflow Pipeline
+# Authored by Abhay
 name: TNU HRMS Enterprise CI/CD Pipeline
 
 on:
@@ -237,37 +246,58 @@ jobs:
           file: ./Dockerfile
           push: false
           tags: college-registry.tnu.edu.in/hrms/app:latest
-
-      - name: Deploy to Campus Virtual Host (SSH)
-        run: |
-          echo "Deploying container image to university production host..."
 `.trim();
 
   return (
     <div className="space-y-6">
       {/* Header */}
-      <div className="bg-gradient-to-r from-purple-950 via-slate-900 to-slate-900 text-white rounded-xl p-6 shadow-md border border-purple-800">
+      <div className="bg-gradient-to-r from-[#002244] via-slate-900 to-slate-900 text-white rounded-xl p-6 shadow-md border border-[#003366]">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
-            <div className="flex items-center space-x-2 text-purple-300 text-xs font-bold uppercase tracking-wider mb-1">
-              <Terminal className="w-4 h-4 text-purple-400" />
+            <div className="flex items-center space-x-2 text-blue-300 text-xs font-bold uppercase tracking-wider mb-1">
+              <Terminal className="w-4 h-4 text-blue-400" />
               <span>DevOps, SRE & Production Infrastructure</span>
             </div>
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white">
               Enterprise Deployment & Systems Monitoring
             </h1>
-            <p className="mt-1 text-xs md:text-sm text-purple-200/90 max-w-3xl leading-relaxed">
-              Production-ready DevOps implementation designed for official college web hosting: Multi-stage Docker containerization, Docker Compose microservices, Nginx TLS reverse-proxy with security headers, GitHub Actions CI/CD pipeline, and Prometheus metrics telemetry.
+            <p className="mt-1 text-xs md:text-sm text-slate-300 max-w-3xl leading-relaxed">
+              Production-ready DevOps implementation for official college web hosting: Multi-stage Docker containerization, Docker Compose microservices, Nginx TLS reverse-proxy with security headers, GitHub Actions CI/CD pipeline, and Prometheus metrics telemetry.
             </p>
           </div>
 
           <button
             onClick={fetchHealth}
-            className="px-3.5 py-2 bg-purple-600 hover:bg-purple-700 text-white text-xs font-bold rounded-lg shadow-sm flex items-center space-x-2 transition self-start md:self-auto"
+            className="px-3.5 py-2 bg-[#004b87] hover:bg-[#003366] text-white text-xs font-bold rounded-lg shadow-sm flex items-center space-x-2 transition self-start md:self-auto border border-blue-400/30"
           >
             <RefreshCw className="w-3.5 h-3.5" />
             <span>Refresh Health Probe</span>
           </button>
+        </div>
+      </div>
+
+      {/* Developer Engineering Provenance Card by Abhay */}
+      <div className="bg-gradient-to-r from-blue-900/40 via-indigo-900/30 to-purple-900/20 border-2 border-indigo-400/40 rounded-xl p-5 shadow-sm flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="flex items-center space-x-4">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-600 to-blue-700 flex items-center justify-center text-white font-black text-xl shadow-md border border-indigo-300/40">
+            A
+          </div>
+          <div>
+            <div className="flex items-center space-x-2">
+              <span className="text-sm font-black text-slate-900">Engineered & Developed by Abhay</span>
+              <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-indigo-100 text-indigo-800">
+                Lead DevOps & Fullstack Architect
+              </span>
+            </div>
+            <p className="text-xs text-slate-600 mt-0.5">
+              Authorized software author for The Neotia University HRMS Automation Portal. All SOP state machines, database change methodologies, and CI/CD pipelines verified.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex items-center space-x-2 text-xs font-mono bg-white px-3 py-1.5 rounded-md border border-slate-200 shrink-0">
+          <ShieldCheck className="w-4 h-4 text-emerald-600" />
+          <span className="text-slate-700">Signature: <strong>Abhay-TNU-DevOps-2026</strong></span>
         </div>
       </div>
 
@@ -332,7 +362,7 @@ jobs:
           <div className="px-5 py-3 bg-slate-900 border-b border-slate-800 flex items-center justify-between">
             <div className="flex items-center space-x-2 text-xs font-bold text-slate-300">
               <Layers className="w-4 h-4 text-purple-400" />
-              <span>Production Multi-Stage Dockerfile</span>
+              <span>Production Multi-Stage Dockerfile (Authored by Abhay)</span>
             </div>
             <button
               onClick={() => copyToClipboard(dockerfileContent, 'dockerfile')}
