@@ -1469,10 +1469,10 @@
       "stakeholderVerifications": [
         {
           "stakeholder": "SCHOOL_DEAN",
-          "name": "Prof. (Dr.) Alok Chatterjee (Dean - Engg)",
+          "name": "Ms. Sunita Sharma (Head - Human Resources)",
           "status": "VERIFIED",
-          "verifiedAt": "2026-09-19T11:00:00.000Z",
-          "remarks": "Curriculum delivery and student engagement benchmarks verified. Outstanding score."
+          "verifiedAt": "2026-10-02T21:01:53.872Z",
+          "remarks": ""
         },
         {
           "stakeholder": "RD_CELL",
@@ -1537,7 +1537,7 @@
         "routedToPayroll": true,
         "payrollRoutingDate": "2026-09-29T10:00:00.000Z"
       },
-      "status": "COMPLETED"
+      "status": "READY_FOR_ECM_SCHEDULING"
     }
   ],
   "notifications": [
@@ -1570,6 +1570,129 @@
     }
   ],
   "auditLogs": [
+    {
+      "id": "AUD-DE46D5D4",
+      "entityType": "FACULTY_ECM_APPRAISAL",
+      "entityId": "ECM-2026-009",
+      "action": "STAKEHOLDER_VERIFICATION_VERIFIED",
+      "actorName": "Ms. Sunita Sharma (Head - Human Resources)",
+      "actorRole": "SCHOOL_DEAN",
+      "timestamp": "2026-10-02T21:01:53.873Z",
+      "previousState": null,
+      "newState": {
+        "id": "ECM-2026-009",
+        "cycleMonthYear": "2026-09",
+        "employeeId": "EMP-009",
+        "employeeName": "Dr. Ananya Sen",
+        "designation": "Assistant Professor (Senior Scale)",
+        "department": "Computer Science & Engineering",
+        "doj": "2024-08-01",
+        "probationCompleted": true,
+        "monthsSinceLastAppraisalOrDoj": 14,
+        "isAutoEligible": true,
+        "eligibilityRoutedToRegistrarDate": "2026-09-10",
+        "selfAppraisalFormIssuedDate": "2026-09-11",
+        "selfAppraisalSubmissionDeadline": "2026-09-18",
+        "selfAppraisalSubmittedDate": "2026-09-16",
+        "selfAppraisalData": {
+          "teachingAndPedagogy": {
+            "coursesTaught": "Deep Learning (CSE-701), Advanced Algorithms (CSE-502)",
+            "studentFeedbackRating": 4.8,
+            "teachingHoursCompleted": 480,
+            "scoreSelf": 95
+          },
+          "researchAndPublications": {
+            "scopusIeeePapers": 6,
+            "citationsAdded": 84,
+            "booksChapters": 1,
+            "scoreSelf": 96
+          },
+          "sponsoredResearchAndGrants": {
+            "grantTitle": "DST-SERB AI in Medical Imaging",
+            "grantAmountLakhs": 24.5,
+            "scoreSelf": 92
+          },
+          "institutionalContribution": {
+            "duties": "NBA & NAAC Departmental Coordinator, Coding Club Faculty Mentor",
+            "scoreSelf": 90
+          }
+        },
+        "stakeholderVerifications": [
+          {
+            "stakeholder": "SCHOOL_DEAN",
+            "name": "Ms. Sunita Sharma (Head - Human Resources)",
+            "status": "VERIFIED",
+            "verifiedAt": "2026-10-02T21:01:53.872Z",
+            "remarks": ""
+          },
+          {
+            "stakeholder": "RD_CELL",
+            "name": "Prof. S. Majumdar (Director - R&D)",
+            "status": "VERIFIED",
+            "verifiedAt": "2026-09-20T14:30:00.000Z",
+            "remarks": "All 6 SCI publications indexed, DST grant sanction order verified."
+          },
+          {
+            "stakeholder": "PLACEMENT_CELL",
+            "name": "Mr. K. Banerjee (Head - Placements)",
+            "status": "VERIFIED",
+            "verifiedAt": "2026-09-21T10:15:00.000Z",
+            "remarks": "Mentored 42 students into Tier-1 product companies."
+          },
+          {
+            "stakeholder": "HR_DEPARTMENT",
+            "name": "Ms. Sunita Sharma (Head HR)",
+            "status": "VERIFIED",
+            "verifiedAt": "2026-09-22T16:00:00.000Z",
+            "remarks": "Attendance and service norms cleared without discrepancies."
+          }
+        ],
+        "ecmMeeting": {
+          "scheduledBy": "Dr. R. K. Mukherjee (Registrar)",
+          "scheduledDate": "2026-09-25T11:30:00.000Z",
+          "venueMode": "CONFERENCE_ROOM_A_AND_ONLINE",
+          "committeeMembers": [
+            "Prof. (Dr.) B. N. Sengupta (Vice-Chancellor - Chair)",
+            "Dr. R. K. Mukherjee (Registrar - Secretary)",
+            "Prof. (Dr.) Alok Chatterjee (Dean)",
+            "Prof. P. K. Sinha (External Subject Expert - IIT)",
+            "Ms. Sunita Sharma (HR Rep)"
+          ],
+          "status": "CONCLUDED"
+        },
+        "digitalEcmScoreSheet": {
+          "teachingScore100": 95,
+          "researchScore100": 96,
+          "consultancyGrantScore50": 48,
+          "institutionalDevScore50": 46,
+          "totalTnuProtocolScore": 285,
+          "tnuPercentage": 95,
+          "committeeRemarks": "Exemplary academic and research performance. Unanimously recommended for promotion and salary increment."
+        },
+        "evaluationMatrixCompiled": {
+          "previousIncrementDetails": "Last increment granted at joining (August 2024).",
+          "compiledDate": "2026-09-26T12:00:00.000Z",
+          "routedToManagementDate": "2026-09-26T15:00:00.000Z"
+        },
+        "managementDecision": {
+          "decisionType": "PROMOTION_AND_COMPENSATION_REVISION",
+          "newDesignation": "Associate Professor",
+          "newMonthlySalary": 115000,
+          "salaryIncreaseAmount": 17000,
+          "effectiveSalaryCycleMonth": "November 2026",
+          "decidedBy": "Prof. (Dr.) B. N. Sengupta (VC)",
+          "decisionDate": "2026-09-28T16:30:00.000Z",
+          "remarks": "Approved as recommended. Outstanding contributor to university research profile.",
+          "officialLetterGenerated": true,
+          "letterReferenceNumber": "TNU/REG/ECM/2026/044",
+          "routedToPayroll": true,
+          "payrollRoutingDate": "2026-09-29T10:00:00.000Z"
+        },
+        "status": "READY_FOR_ECM_SCHEDULING"
+      },
+      "remarks": "",
+      "ip": "::1"
+    },
     {
       "id": "AUD-AEDC8F6D",
       "entityType": "EMPLOYEE_RECORD",
