@@ -1,0 +1,6 @@
+node_modules/
+client/node_modules/
+.env
+data/hrms_db.json.tmp.*
+dist/
+client/dist/
